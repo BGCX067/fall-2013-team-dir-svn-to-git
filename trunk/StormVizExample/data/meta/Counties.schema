@@ -1,0 +1,12 @@
+oblivion.geo.shape.GeoShape GeoShape
+int OBJECTID_1
+java.lang.String STATE
+java.lang.String CWA
+java.lang.String COUNTYNAME
+java.lang.String FIPS
+java.lang.String TIME_ZONE
+java.lang.String FE_AREA
+double LON
+double LAT
+double Shape_Length
+double Shape_Area

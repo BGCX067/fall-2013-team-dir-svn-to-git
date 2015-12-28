@@ -1,0 +1,8 @@
+java.lang.String State
+int Zone
+java.lang.String ZoneName
+java.lang.String StateZoneCode
+java.lang.String CountyName
+java.lang.String FIPS
+double Lat
+double Long

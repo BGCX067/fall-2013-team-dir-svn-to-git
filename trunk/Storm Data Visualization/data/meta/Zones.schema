@@ -1,0 +1,12 @@
+oblivion.geo.shape.GeoShape GeoShape
+int OBJECTID
+java.lang.String STATE
+java.lang.String CWA
+java.lang.String TIME_ZONE
+java.lang.String FE_AREA
+java.lang.String ZONE
+java.lang.String NAME
+java.lang.String STATE_ZONE
+double LON
+double LAT
+java.lang.String SHORTNAME

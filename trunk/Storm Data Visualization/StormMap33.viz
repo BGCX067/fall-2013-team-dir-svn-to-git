@@ -1,0 +1,5935 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<improvise>
+  <general>
+    <bounds>
+      <x>0</x>
+      <y>0</y>
+      <w>1920</w>
+      <h>944</h>
+    </bounds>
+    <deskstyle>untabbed</deskstyle>
+    <resizable>true</resizable>
+  </general>
+  <object id="value0" type="oblivion.util.Range.Double">
+    <range>
+      <min>-1.0</min>
+      <max>1.0</max>
+    </range>
+  </object>
+  <object id="prototype0" type="oblivion.lp.Prototype">
+    <prototype>
+      <type>oblivion.util.Range.Double</type>
+      <name>XRange</name>
+      <value type="oblivion.util.Range.Double">
+        <range ref="value0"/>
+      </value>
+    </prototype>
+  </object>
+  <object id="value1" type="oblivion.util.Range.Double">
+    <range>
+      <min>-128.67692371701514</min>
+      <max>-62.48754871701462</max>
+    </range>
+  </object>
+  <object id="variable0" type="oblivion.lp.Variable">
+    <variable>
+      <prototype ref="prototype0"/>
+      <name>USXRange</name>
+      <annotation>
+        <description/>
+      </annotation>
+      <label>USXRange</label>
+      <value type="oblivion.util.Range.Double">
+        <range ref="value1"/>
+      </value>
+    </variable>
+  </object>
+  <object id="prototype1" type="oblivion.lp.Prototype">
+    <prototype>
+      <type>oblivion.util.Range.Double</type>
+      <name/>
+      <value type="oblivion.util.Range.Double">
+        <range ref="value0"/>
+      </value>
+    </prototype>
+  </object>
+  <object id="value2" type="oblivion.util.Range.Double">
+    <range>
+      <min>24.180715940920482</min>
+      <max>51.496965940920575</max>
+    </range>
+  </object>
+  <object id="variable1" type="oblivion.lp.Variable">
+    <variable>
+      <prototype ref="prototype1"/>
+      <name>USYRange</name>
+      <annotation>
+        <description/>
+      </annotation>
+      <label>USYRange</label>
+      <value type="oblivion.util.Range.Double">
+        <range ref="value2"/>
+      </value>
+    </variable>
+  </object>
+  <object id="prototype2" type="oblivion.lp.Prototype">
+    <prototype>
+      <type>oblivion.util.Range.Double</type>
+      <name>Range</name>
+      <value type="oblivion.util.Range.Double">
+        <range ref="value0"/>
+      </value>
+    </prototype>
+  </object>
+  <object id="value3" type="oblivion.util.Range.Double">
+    <range>
+      <min>1996.0</min>
+      <max>2012.0</max>
+    </range>
+  </object>
+  <object id="variable2" type="oblivion.lp.Variable">
+    <variable>
+      <prototype ref="prototype2"/>
+      <name>Years</name>
+      <annotation>
+        <description/>
+      </annotation>
+      <label>Years</label>
+      <locked>true</locked>
+      <value type="oblivion.util.Range.Double">
+        <range ref="value3"/>
+      </value>
+    </variable>
+  </object>
+  <object id="value4" type="oblivion.util.Range.Double">
+    <range>
+      <min>2002.5641025641025</min>
+      <max>2006.748717948718</max>
+    </range>
+  </object>
+  <object id="variable3" type="oblivion.lp.Variable">
+    <variable>
+      <prototype ref="prototype2"/>
+      <name>SliderYears</name>
+      <annotation>
+        <description/>
+      </annotation>
+      <label>SliderYears</label>
+      <value type="oblivion.util.Range.Double">
+        <range ref="value4"/>
+      </value>
+    </variable>
+  </object>
+  <object id="value5" type="java.lang.Double">
+    <double>NaN</double>
+  </object>
+  <object id="prototype3" type="oblivion.lp.Prototype">
+    <prototype>
+      <type>java.lang.Double</type>
+      <name>Point</name>
+      <value type="java.lang.Double">
+        <double ref="value5"/>
+      </value>
+    </prototype>
+  </object>
+  <object id="variable4" type="oblivion.lp.Variable">
+    <variable>
+      <prototype ref="prototype3"/>
+      <name>YearAxisPoint</name>
+      <annotation>
+        <description/>
+      </annotation>
+      <label>YearAxisPoint</label>
+      <value type="java.lang.Double">
+        <double ref="value5"/>
+      </value>
+    </variable>
+  </object>
+  <object id="value6" type="java.lang.String">
+    <string>0.00</string>
+  </object>
+  <object id="prototype4" type="oblivion.lp.Prototype">
+    <prototype>
+      <type>java.lang.String</type>
+      <name>Units Format</name>
+      <value type="java.lang.String">
+        <string ref="value6"/>
+      </value>
+    </prototype>
+  </object>
+  <object id="value7" type="java.lang.String">
+    <string>0</string>
+  </object>
+  <object id="variable5" type="oblivion.lp.Variable">
+    <variable>
+      <prototype ref="prototype4"/>
+      <name>YearLabelFormat</name>
+      <annotation>
+        <description/>
+      </annotation>
+      <label>YearLabelFormat</label>
+      <value type="java.lang.String">
+        <string ref="value7"/>
+      </value>
+    </variable>
+  </object>
+  <object id="value8" type="java.awt.Color">
+    <color>#eeeeee</color>
+  </object>
+  <object id="prototype5" type="oblivion.lp.Prototype">
+    <prototype>
+      <type>java.awt.Color</type>
+      <name>Background</name>
+      <value type="java.awt.Color">
+        <color ref="value8"/>
+      </value>
+    </prototype>
+  </object>
+  <object id="value9" type="java.awt.Color">
+    <color>#58a1e6</color>
+  </object>
+  <object id="variable6" type="oblivion.lp.Variable">
+    <variable>
+      <prototype ref="prototype5"/>
+      <name>MapBackgroundColor</name>
+      <annotation>
+        <description/>
+      </annotation>
+      <label>MapBackgroundColor</label>
+      <value type="java.awt.Color">
+        <color ref="value9"/>
+      </value>
+    </variable>
+  </object>
+  <object id="value10" type="oblivion.util.Scroll">
+    <scroll>
+      <min>0</min>
+      <max>100</max>
+      <lo>0</lo>
+      <hi>0</hi>
+    </scroll>
+  </object>
+  <object id="prototype6" type="oblivion.lp.Prototype">
+    <prototype>
+      <type>oblivion.util.Scroll</type>
+      <name>Scroll</name>
+      <value type="oblivion.util.Scroll">
+        <scroll ref="value10"/>
+      </value>
+    </prototype>
+  </object>
+  <object id="variable7" type="oblivion.lp.Variable">
+    <variable>
+      <prototype ref="prototype6"/>
+      <name>Scroll</name>
+      <annotation>
+        <description/>
+      </annotation>
+      <label>Scroll</label>
+      <value type="oblivion.util.Scroll">
+        <scroll ref="value10"/>
+      </value>
+    </variable>
+  </object>
+  <object id="prototype7" type="oblivion.lp.Prototype">
+    <prototype>
+      <type>java.lang.String</type>
+      <name>Text</name>
+    </prototype>
+  </object>
+  <object id="value11" type="java.lang.String">
+    <string>Clear Selection</string>
+  </object>
+  <object id="variable8" type="oblivion.lp.Variable">
+    <variable>
+      <prototype ref="prototype7"/>
+      <name>ResetButton</name>
+      <annotation>
+        <description/>
+      </annotation>
+      <label ref="value11"/>
+      <value type="java.lang.String">
+        <string ref="value11"/>
+      </value>
+    </variable>
+  </object>
+  <object id="value12" type="oblivion.db.Selection">
+    <selection>
+      <bits/>
+    </selection>
+  </object>
+  <object id="prototype8" type="oblivion.lp.Prototype">
+    <prototype>
+      <type>oblivion.db.Selection</type>
+      <name>Selection</name>
+      <value type="oblivion.db.Selection">
+        <selection ref="value12"/>
+      </value>
+    </prototype>
+  </object>
+  <object id="value13" type="oblivion.db.Selection">
+    <selection>
+      <bits>11111111111111111111111111111111111111111111111111111111</bits>
+    </selection>
+  </object>
+  <object id="variable9" type="oblivion.lp.Variable">
+    <variable>
+      <prototype ref="prototype8"/>
+      <name>StateSelection</name>
+      <annotation>
+        <description/>
+      </annotation>
+      <label>StateSelection</label>
+      <value type="oblivion.db.Selection">
+        <selection ref="value13"/>
+      </value>
+    </variable>
+  </object>
+  <object id="value14" type="oblivion.math.Complex">
+    <complex>
+      <re>0.0</re>
+      <im>0.0</im>
+    </complex>
+  </object>
+  <object id="prototype9" type="oblivion.lp.Prototype">
+    <prototype>
+      <type>oblivion.math.Complex</type>
+      <name>Complex</name>
+      <value type="oblivion.math.Complex">
+        <complex ref="value14"/>
+      </value>
+    </prototype>
+  </object>
+  <object id="variable10" type="oblivion.lp.Variable">
+    <variable>
+      <prototype ref="prototype9"/>
+      <name>Complex</name>
+      <label>Complex</label>
+    </variable>
+  </object>
+  <object id="prototype10" type="oblivion.lp.Prototype">
+    <prototype>
+      <type>oblivion.lp.Variable</type>
+      <name>Variable</name>
+    </prototype>
+  </object>
+  <object id="variable11" type="oblivion.lp.Variable">
+    <variable>
+      <prototype ref="prototype10"/>
+      <name>Variable</name>
+      <label>Variable</label>
+    </variable>
+  </object>
+  <object id="prototype11" type="oblivion.lp.Prototype">
+    <prototype>
+      <type>oblivion.db.Data</type>
+      <name>Data</name>
+    </prototype>
+  </object>
+  <object id="variable12" type="oblivion.lp.Variable">
+    <variable>
+      <prototype ref="prototype11"/>
+      <name>Data</name>
+      <label>Data</label>
+    </variable>
+  </object>
+  <object id="prototype12" type="oblivion.lp.Prototype">
+    <prototype>
+      <type>oblivion.db.Selection</type>
+      <name/>
+      <value type="oblivion.db.Selection">
+        <selection ref="value12"/>
+      </value>
+    </prototype>
+  </object>
+  <object id="value15" type="oblivion.db.Selection">
+    <selection>
+      <bits>1</bits>
+    </selection>
+  </object>
+  <object id="variable13" type="oblivion.lp.Variable">
+    <variable>
+      <prototype ref="prototype12"/>
+      <name>CZSelection</name>
+      <annotation>
+        <description/>
+      </annotation>
+      <label>CZSelection</label>
+      <value type="oblivion.db.Selection">
+        <selection ref="value15"/>
+      </value>
+    </variable>
+  </object>
+  <object id="value16" type="java.lang.String">
+    <string/>
+  </object>
+  <object id="prototype13" type="oblivion.lp.Prototype">
+    <prototype>
+      <type>java.lang.String</type>
+      <name ref="value16"/>
+      <value type="java.lang.String">
+        <string ref="value16"/>
+      </value>
+    </prototype>
+  </object>
+  <object id="value17" type="java.lang.String">
+    <string>AZ</string>
+  </object>
+  <object id="variable14" type="oblivion.lp.Variable">
+    <variable>
+      <prototype ref="prototype13"/>
+      <name>String</name>
+      <label>String</label>
+      <value type="java.lang.String">
+        <string ref="value17"/>
+      </value>
+    </variable>
+  </object>
+  <object id="variable15" type="oblivion.lp.Variable">
+    <variable>
+      <prototype ref="prototype13"/>
+      <name>String0</name>
+      <annotation>
+        <description/>
+      </annotation>
+      <label>String0</label>
+      <value type="java.lang.String">
+        <string ref="value17"/>
+      </value>
+    </variable>
+  </object>
+  <object id="value18" type="java.lang.Integer">
+    <integer>0</integer>
+  </object>
+  <object id="prototype14" type="oblivion.lp.Prototype">
+    <prototype>
+      <type>java.lang.Integer</type>
+      <name ref="value16"/>
+      <value type="java.lang.Integer">
+        <integer ref="value18"/>
+      </value>
+    </prototype>
+  </object>
+  <object id="value19" type="java.lang.Integer">
+    <integer>49</integer>
+  </object>
+  <object id="variable16" type="oblivion.lp.Variable">
+    <variable>
+      <prototype ref="prototype14"/>
+      <name>Integer</name>
+      <label>Integer</label>
+      <value type="java.lang.Integer">
+        <integer ref="value19"/>
+      </value>
+    </variable>
+  </object>
+  <object id="prototype15" type="oblivion.lp.Prototype">
+    <prototype>
+      <type>oblivion.db.Selection</type>
+      <name>Selection</name>
+      <value type="oblivion.db.Selection">
+        <selection ref="value12"/>
+      </value>
+    </prototype>
+  </object>
+  <object id="value20" type="oblivion.db.Selection">
+    <selection>
+      <bits>00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001</bits>
+    </selection>
+  </object>
+  <object id="variable17" type="oblivion.lp.Variable">
+    <variable>
+      <prototype ref="prototype15"/>
+      <name>CountySelection</name>
+      <annotation>
+        <description/>
+      </annotation>
+      <label>CountySelection</label>
+      <value type="oblivion.db.Selection">
+        <selection ref="value20"/>
+      </value>
+    </variable>
+  </object>
+  <object id="prototype16" type="oblivion.lp.Prototype">
+    <prototype>
+      <type>oblivion.util.Range.Double</type>
+      <name>Range</name>
+      <value type="oblivion.util.Range.Double">
+        <range ref="value0"/>
+      </value>
+    </prototype>
+  </object>
+  <object id="value21" type="oblivion.util.Range.Double">
+    <range>
+      <min>1.0</min>
+      <max>12.0</max>
+    </range>
+  </object>
+  <object id="variable18" type="oblivion.lp.Variable">
+    <variable>
+      <prototype ref="prototype16"/>
+      <name>Months</name>
+      <annotation>
+        <description/>
+      </annotation>
+      <label>Months</label>
+      <locked>true</locked>
+      <value type="oblivion.util.Range.Double">
+        <range ref="value21"/>
+      </value>
+    </variable>
+  </object>
+  <object id="value22" type="oblivion.util.Range.Double">
+    <range>
+      <min>3.2564102564102564</min>
+      <max>5.964102564102564</max>
+    </range>
+  </object>
+  <object id="variable19" type="oblivion.lp.Variable">
+    <variable>
+      <prototype ref="prototype16"/>
+      <name>SliderMonths</name>
+      <annotation>
+        <description/>
+      </annotation>
+      <value type="oblivion.util.Range.Double">
+        <range ref="value22"/>
+      </value>
+    </variable>
+  </object>
+  <object id="value23" type="oblivion.util.Range.Double">
+    <range>
+      <min>1.0</min>
+      <max>31.0</max>
+    </range>
+  </object>
+  <object id="variable20" type="oblivion.lp.Variable">
+    <variable>
+      <prototype ref="prototype16"/>
+      <name>Days</name>
+      <annotation>
+        <description/>
+      </annotation>
+      <label>Days</label>
+      <locked>true</locked>
+      <value type="oblivion.util.Range.Double">
+        <range ref="value23"/>
+      </value>
+    </variable>
+  </object>
+  <object id="value24" type="oblivion.util.Range.Double">
+    <range>
+      <min>6.769230769230769</min>
+      <max>20.230769230769234</max>
+    </range>
+  </object>
+  <object id="variable21" type="oblivion.lp.Variable">
+    <variable>
+      <prototype ref="prototype16"/>
+      <name>SliderDays</name>
+      <annotation>
+        <description/>
+      </annotation>
+      <value type="oblivion.util.Range.Double">
+        <range ref="value24"/>
+      </value>
+    </variable>
+  </object>
+  <object id="value25" type="oblivion.db.Schema">
+    <schema>
+      <type>oblivion.db.io.schema.FlatSchemaSource</type>
+      <source>
+        <type>oblivion.io.FileSource</type>
+        <source>
+          <file>data\meta\StormEvents.schema</file>
+        </source>
+        <format>Whitespace</format>
+      </source>
+    </schema>
+  </object>
+  <object id="Schema0" type="oblivion.db.lex.LexicalSchema">
+    <oblivion.db.lex.LexicalSchema>
+      <name>Storm</name>
+      <schema ref="value25"/>
+    </oblivion.db.lex.LexicalSchema>
+  </object>
+  <object id="prototype17" type="oblivion.lp.Prototype">
+    <prototype>
+      <type>oblivion.db.lex.LexicalSchema</type>
+      <name ref="value16"/>
+    </prototype>
+  </object>
+  <object id="variable22" type="oblivion.lp.Variable">
+    <variable>
+      <prototype ref="prototype17"/>
+      <name>Storm</name>
+      <annotation>
+        <description/>
+      </annotation>
+      <label>Storm</label>
+      <value type="oblivion.db.lex.LexicalSchema">
+        <oblivion.db.lex.LexicalSchema ref="Schema0"/>
+      </value>
+    </variable>
+  </object>
+  <object id="value26" type="oblivion.db.Schema">
+    <schema>
+      <type>oblivion.db.io.schema.FlatSchemaSource</type>
+      <source>
+        <type>oblivion.io.FileSource</type>
+        <source>
+          <file>data\meta\States.schema</file>
+        </source>
+        <format>Whitespace</format>
+      </source>
+    </schema>
+  </object>
+  <object id="Schema1" type="oblivion.db.lex.LexicalSchema">
+    <oblivion.db.lex.LexicalSchema>
+      <name>States</name>
+      <schema ref="value26"/>
+    </oblivion.db.lex.LexicalSchema>
+  </object>
+  <object id="variable23" type="oblivion.lp.Variable">
+    <variable>
+      <prototype ref="prototype17"/>
+      <name>States</name>
+      <label>States</label>
+      <value type="oblivion.db.lex.LexicalSchema">
+        <oblivion.db.lex.LexicalSchema ref="Schema1"/>
+      </value>
+    </variable>
+  </object>
+  <object id="value27" type="oblivion.db.Schema">
+    <schema>
+      <type>oblivion.db.io.schema.FlatSchemaSource</type>
+      <source>
+        <type>oblivion.io.FileSource</type>
+        <source>
+          <file>data\meta\Counties.schema</file>
+        </source>
+        <format>Whitespace</format>
+      </source>
+    </schema>
+  </object>
+  <object id="Schema2" type="oblivion.db.lex.LexicalSchema">
+    <oblivion.db.lex.LexicalSchema>
+      <name>Counties</name>
+      <schema ref="value27"/>
+    </oblivion.db.lex.LexicalSchema>
+  </object>
+  <object id="variable24" type="oblivion.lp.Variable">
+    <variable>
+      <prototype ref="prototype17"/>
+      <name>Counties</name>
+      <label>Counties</label>
+      <value type="oblivion.db.lex.LexicalSchema">
+        <oblivion.db.lex.LexicalSchema ref="Schema2"/>
+      </value>
+    </variable>
+  </object>
+  <object id="value28" type="oblivion.db.Schema">
+    <schema/>
+  </object>
+  <object id="Schema3" type="oblivion.db.lex.LexicalSchema">
+    <oblivion.db.lex.LexicalSchema>
+      <name>Zones</name>
+      <schema ref="value28"/>
+    </oblivion.db.lex.LexicalSchema>
+  </object>
+  <object id="variable25" type="oblivion.lp.Variable">
+    <variable>
+      <prototype ref="prototype17"/>
+      <name>Zones</name>
+      <label>Zones</label>
+      <value type="oblivion.db.lex.LexicalSchema">
+        <oblivion.db.lex.LexicalSchema ref="Schema3"/>
+      </value>
+    </variable>
+  </object>
+  <object id="value29" type="oblivion.db.Schema">
+    <schema>
+      <attribute>
+        <type>java.lang.String</type>
+        <name>STATE</name>
+      </attribute>
+    </schema>
+  </object>
+  <object id="Schema4" type="oblivion.db.lex.LexicalSchema">
+    <oblivion.db.lex.LexicalSchema>
+      <name>ListOfStates</name>
+      <schema ref="value29"/>
+    </oblivion.db.lex.LexicalSchema>
+  </object>
+  <object id="variable26" type="oblivion.lp.Variable">
+    <variable>
+      <prototype ref="prototype17"/>
+      <name>ListOfStates</name>
+      <label>ListOfStates</label>
+      <value type="oblivion.db.lex.LexicalSchema">
+        <oblivion.db.lex.LexicalSchema ref="Schema4"/>
+      </value>
+    </variable>
+  </object>
+  <object id="value30" type="oblivion.db.Schema">
+    <schema>
+      <attribute>
+        <type>java.lang.String</type>
+        <name>COUNTYZONE</name>
+      </attribute>
+    </schema>
+  </object>
+  <object id="Schema5" type="oblivion.db.lex.LexicalSchema">
+    <oblivion.db.lex.LexicalSchema>
+      <name>CountyZoneList</name>
+      <schema ref="value30"/>
+    </oblivion.db.lex.LexicalSchema>
+  </object>
+  <object id="variable27" type="oblivion.lp.Variable">
+    <variable>
+      <prototype ref="prototype17"/>
+      <name>CountyZoneList</name>
+      <label>CountyZoneList</label>
+      <value type="oblivion.db.lex.LexicalSchema">
+        <oblivion.db.lex.LexicalSchema ref="Schema5"/>
+      </value>
+    </variable>
+  </object>
+  <object id="value31" type="oblivion.db.Schema">
+    <schema>
+      <attribute>
+        <type>java.lang.String</type>
+        <name>ZONE</name>
+      </attribute>
+    </schema>
+  </object>
+  <object id="Schema6" type="oblivion.db.lex.LexicalSchema">
+    <oblivion.db.lex.LexicalSchema>
+      <name>ListOfZones</name>
+      <schema ref="value31"/>
+    </oblivion.db.lex.LexicalSchema>
+  </object>
+  <object id="variable28" type="oblivion.lp.Variable">
+    <variable>
+      <prototype ref="prototype17"/>
+      <name>ListOfZones</name>
+      <label>ListOfZones</label>
+      <value type="oblivion.db.lex.LexicalSchema">
+        <oblivion.db.lex.LexicalSchema ref="Schema6"/>
+      </value>
+    </variable>
+  </object>
+  <object id="value32" type="oblivion.db.Schema">
+    <schema>
+      <attribute>
+        <type>java.lang.String</type>
+        <name>COUNTY</name>
+      </attribute>
+    </schema>
+  </object>
+  <object id="Schema7" type="oblivion.db.lex.LexicalSchema">
+    <oblivion.db.lex.LexicalSchema>
+      <name>ListOfCounties</name>
+      <schema ref="value32"/>
+    </oblivion.db.lex.LexicalSchema>
+  </object>
+  <object id="variable29" type="oblivion.lp.Variable">
+    <variable>
+      <prototype ref="prototype17"/>
+      <name>ListOfCounties</name>
+      <label>ListOfCounties</label>
+      <value type="oblivion.db.lex.LexicalSchema">
+        <oblivion.db.lex.LexicalSchema ref="Schema7"/>
+      </value>
+    </variable>
+  </object>
+  <object id="variable30" type="oblivion.lp.Variable">
+    <variable>
+      <prototype ref="prototype17"/>
+      <name>ListOfCounties0</name>
+      <label>ListOfCounties</label>
+      <value type="oblivion.db.lex.LexicalSchema">
+        <oblivion.db.lex.LexicalSchema ref="Schema7"/>
+      </value>
+    </variable>
+  </object>
+  <object id="value33" type="oblivion.db.Schema">
+    <schema>
+      <type>oblivion.db.io.schema.FlatSchemaSource</type>
+      <source>
+        <type>oblivion.io.FileSource</type>
+        <source>
+          <file>data\meta\Zones.schema</file>
+        </source>
+        <format>Whitespace</format>
+      </source>
+    </schema>
+  </object>
+  <object id="Schema8" type="oblivion.db.lex.LexicalSchema">
+    <oblivion.db.lex.LexicalSchema>
+      <name>Zone</name>
+      <schema ref="value33"/>
+    </oblivion.db.lex.LexicalSchema>
+  </object>
+  <object id="variable31" type="oblivion.lp.Variable">
+    <variable>
+      <prototype ref="prototype17"/>
+      <name>Zone</name>
+      <label>Zone</label>
+      <value type="oblivion.db.lex.LexicalSchema">
+        <oblivion.db.lex.LexicalSchema ref="Schema8"/>
+      </value>
+    </variable>
+  </object>
+  <object id="value34" type="oblivion.db.Schema">
+    <schema>
+      <attribute>
+        <type>java.lang.String</type>
+        <name>EVENTTYPE</name>
+      </attribute>
+    </schema>
+  </object>
+  <object id="Schema9" type="oblivion.db.lex.LexicalSchema">
+    <oblivion.db.lex.LexicalSchema>
+      <name>CountyEventType</name>
+      <schema ref="value34"/>
+    </oblivion.db.lex.LexicalSchema>
+  </object>
+  <object id="variable32" type="oblivion.lp.Variable">
+    <variable>
+      <prototype ref="prototype17"/>
+      <name>CountyEventType</name>
+      <label>CountyEventType</label>
+      <value type="oblivion.db.lex.LexicalSchema">
+        <oblivion.db.lex.LexicalSchema ref="Schema9"/>
+      </value>
+    </variable>
+  </object>
+  <object id="Schema10" type="oblivion.db.lex.LexicalSchema">
+    <oblivion.db.lex.LexicalSchema>
+      <name>ZoneEventType</name>
+      <schema ref="value34"/>
+    </oblivion.db.lex.LexicalSchema>
+  </object>
+  <object id="variable33" type="oblivion.lp.Variable">
+    <variable>
+      <prototype ref="prototype17"/>
+      <name>ZoneEventType</name>
+      <label>ZoneEventType</label>
+      <value type="oblivion.db.lex.LexicalSchema">
+        <oblivion.db.lex.LexicalSchema ref="Schema10"/>
+      </value>
+    </variable>
+  </object>
+  <object id="prototype18" type="oblivion.lp.Prototype">
+    <prototype>
+      <type>oblivion.db.lex.LexicalData</type>
+      <name>LexicalData</name>
+    </prototype>
+  </object>
+  <object id="value35" type="oblivion.db.lex.LexicalData">
+    <oblivion.db.lex.LexicalData>
+      <name>Properties</name>
+    </oblivion.db.lex.LexicalData>
+  </object>
+  <object id="variable34" type="oblivion.lp.Variable">
+    <variable>
+      <prototype ref="prototype18"/>
+      <name>Properties Data</name>
+      <annotation>
+        <description/>
+      </annotation>
+      <label>Properties Data</label>
+      <value type="oblivion.db.lex.LexicalData">
+        <oblivion.db.lex.LexicalData ref="value35"/>
+      </value>
+    </variable>
+  </object>
+  <object id="prototype19" type="oblivion.lp.Prototype">
+    <prototype>
+      <type>oblivion.db.lex.LexicalExpression</type>
+      <name ref="value16"/>
+    </prototype>
+  </object>
+  <object id="value36" type="oblivion.db.lex.LexicalExpression">
+    <oblivion.db.lex.LexicalExpression>
+      <name>GetGroupKey</name>
+    </oblivion.db.lex.LexicalExpression>
+  </object>
+  <object id="variable35" type="oblivion.lp.Variable">
+    <variable>
+      <prototype ref="prototype19"/>
+      <name>GetGroupKey</name>
+      <annotation>
+        <description/>
+      </annotation>
+      <label>GetGroupKey</label>
+      <value type="oblivion.db.lex.LexicalExpression">
+        <oblivion.db.lex.LexicalExpression ref="value36"/>
+      </value>
+    </variable>
+  </object>
+  <object id="value37" type="oblivion.db.lex.LexicalExpression">
+    <oblivion.db.lex.LexicalExpression>
+      <name>GetRecordID</name>
+    </oblivion.db.lex.LexicalExpression>
+  </object>
+  <object id="variable36" type="oblivion.lp.Variable">
+    <variable>
+      <prototype ref="prototype19"/>
+      <name>GetRecordID</name>
+      <label>GetRecordID</label>
+      <value type="oblivion.db.lex.LexicalExpression">
+        <oblivion.db.lex.LexicalExpression ref="value37"/>
+      </value>
+    </variable>
+  </object>
+  <object id="value38" type="oblivion.db.lex.LexicalExpression">
+    <oblivion.db.lex.LexicalExpression>
+      <name>GetPropertiesKey</name>
+    </oblivion.db.lex.LexicalExpression>
+  </object>
+  <object id="variable37" type="oblivion.lp.Variable">
+    <variable>
+      <prototype ref="prototype19"/>
+      <name>GetPropertiesKey</name>
+      <annotation>
+        <description/>
+      </annotation>
+      <label>GetPropertiesKey</label>
+      <value type="oblivion.db.lex.LexicalExpression">
+        <oblivion.db.lex.LexicalExpression ref="value38"/>
+      </value>
+    </variable>
+  </object>
+  <object id="value39" type="oblivion.db.lex.LexicalExpression">
+    <oblivion.db.lex.LexicalExpression>
+      <name>GetPropertiesVal</name>
+    </oblivion.db.lex.LexicalExpression>
+  </object>
+  <object id="variable38" type="oblivion.lp.Variable">
+    <variable>
+      <prototype ref="prototype19"/>
+      <name>GetPropertiesVal</name>
+      <label>GetPropertiesVal</label>
+      <value type="oblivion.db.lex.LexicalExpression">
+        <oblivion.db.lex.LexicalExpression ref="value39"/>
+      </value>
+    </variable>
+  </object>
+  <object id="value40" type="oblivion.db.op.Expression">
+    <expr kind="index">
+      <op>
+        <type>java.lang.String</type>
+      </op>
+      <expr kind="function">
+        <op>
+          <name>oblivion.db.op.functions.DataFunctions$FromLexicalData</name>
+        </op>
+        <expr kind="variable">
+          <op>
+            <variable ref="variable34"/>
+          </op>
+        </expr>
+      </expr>
+      <expr kind="function">
+        <op>
+          <name>oblivion.db.op.functions.ExpressionFunctions$FromLexical</name>
+        </op>
+        <expr kind="variable">
+          <op>
+            <variable ref="variable37"/>
+          </op>
+        </expr>
+      </expr>
+      <expr kind="function">
+        <op>
+          <name>oblivion.db.op.functions.ExpressionFunctions$FromLexical</name>
+        </op>
+        <expr kind="variable">
+          <op>
+            <variable ref="variable38"/>
+          </op>
+        </expr>
+      </expr>
+      <expr kind="function">
+        <op>
+          <name>oblivion.db.op.functions.StringFunctions$ToObject</name>
+        </op>
+        <expr kind="value">
+          <op>
+            <value type="java.lang.String">
+              <string>Path</string>
+            </value>
+          </op>
+        </expr>
+      </expr>
+      <expr kind="value">
+        <op>
+          <value type="java.lang.String">
+            <string ref="value16"/>
+          </value>
+        </op>
+      </expr>
+    </expr>
+  </object>
+  <object id="Expression0" type="oblivion.db.lex.LexicalExpression">
+    <oblivion.db.lex.LexicalExpression>
+      <name>GetDataPath</name>
+      <ltype>java.lang.String</ltype>
+      <lschema>
+        <name>Empty</name>
+      </lschema>
+      <expression ref="value40"/>
+    </oblivion.db.lex.LexicalExpression>
+  </object>
+  <object id="variable39" type="oblivion.lp.Variable">
+    <variable>
+      <prototype ref="prototype19"/>
+      <name>GetDataPath</name>
+      <label>GetDataPath</label>
+      <value type="oblivion.db.lex.LexicalExpression">
+        <oblivion.db.lex.LexicalExpression ref="Expression0"/>
+      </value>
+    </variable>
+  </object>
+  <object id="value41" type="oblivion.db.op.Expression">
+    <expr kind="attribute">
+      <schema ref="value26"/>
+      <op>
+        <index>2</index>
+      </op>
+    </expr>
+  </object>
+  <object id="Expression1" type="oblivion.db.lex.LexicalExpression">
+    <oblivion.db.lex.LexicalExpression>
+      <name>States.GetState</name>
+      <ltype>java.lang.String</ltype>
+      <lschema ref="Schema1"/>
+      <expression ref="value41"/>
+    </oblivion.db.lex.LexicalExpression>
+  </object>
+  <object id="variable40" type="oblivion.lp.Variable">
+    <variable>
+      <prototype ref="prototype19"/>
+      <name>States.GetState</name>
+      <label>States.GetState</label>
+      <value type="oblivion.db.lex.LexicalExpression">
+        <oblivion.db.lex.LexicalExpression ref="Expression1"/>
+      </value>
+    </variable>
+  </object>
+  <object id="value42" type="oblivion.db.op.Expression">
+    <expr kind="attribute">
+      <schema ref="value29"/>
+      <op>
+        <index>0</index>
+      </op>
+    </expr>
+  </object>
+  <object id="Expression2" type="oblivion.db.lex.LexicalExpression">
+    <oblivion.db.lex.LexicalExpression>
+      <name>ListOfStates.GetState</name>
+      <ltype>java.lang.String</ltype>
+      <lschema ref="Schema4"/>
+      <expression ref="value42"/>
+    </oblivion.db.lex.LexicalExpression>
+  </object>
+  <object id="variable41" type="oblivion.lp.Variable">
+    <variable>
+      <prototype ref="prototype19"/>
+      <name>ListOfStates.GetState</name>
+      <label>ListOfStates.GetState</label>
+      <value type="oblivion.db.lex.LexicalExpression">
+        <oblivion.db.lex.LexicalExpression ref="Expression2"/>
+      </value>
+    </variable>
+  </object>
+  <object id="value43" type="oblivion.db.op.Expression">
+    <expr kind="attribute">
+      <schema ref="value30"/>
+      <op>
+        <index>0</index>
+      </op>
+    </expr>
+  </object>
+  <object id="Expression3" type="oblivion.db.lex.LexicalExpression">
+    <oblivion.db.lex.LexicalExpression>
+      <name>CountyZoneList.getCZ</name>
+      <ltype>java.lang.String</ltype>
+      <lschema ref="Schema5"/>
+      <expression ref="value43"/>
+    </oblivion.db.lex.LexicalExpression>
+  </object>
+  <object id="variable42" type="oblivion.lp.Variable">
+    <variable>
+      <prototype ref="prototype19"/>
+      <name>CountyZoneList.getCZ</name>
+      <annotation>
+        <description/>
+      </annotation>
+      <label>Expression.CountyZoneList</label>
+      <value type="oblivion.db.lex.LexicalExpression">
+        <oblivion.db.lex.LexicalExpression ref="Expression3"/>
+      </value>
+    </variable>
+  </object>
+  <object id="value44" type="oblivion.db.op.ExpressionFilter">
+    <filter>
+      <expr kind="function">
+        <schema ref="value26"/>
+        <op>
+          <name>oblivion.db.op.functions.SelectionFunctions$SelectionGet</name>
+        </op>
+        <expr kind="variable">
+          <op>
+            <variable ref="variable9"/>
+          </op>
+        </expr>
+        <expr kind="function">
+          <op>
+            <name>oblivion.db.op.functions.IntegerFunctions$Invoke</name>
+          </op>
+          <expr kind="variable">
+            <op>
+              <variable ref="variable36"/>
+            </op>
+          </expr>
+        </expr>
+      </expr>
+    </filter>
+  </object>
+  <object id="Filter0" type="oblivion.db.lex.LexicalFilter">
+    <oblivion.db.lex.LexicalFilter>
+      <name>Filter.States</name>
+      <lschema ref="Schema1"/>
+      <filter ref="value44"/>
+    </oblivion.db.lex.LexicalFilter>
+  </object>
+  <object id="prototype20" type="oblivion.lp.Prototype">
+    <prototype>
+      <type>oblivion.db.lex.LexicalFilter</type>
+      <name ref="value16"/>
+    </prototype>
+  </object>
+  <object id="variable43" type="oblivion.lp.Variable">
+    <variable>
+      <prototype ref="prototype20"/>
+      <name>Filter.States</name>
+      <annotation>
+        <description/>
+      </annotation>
+      <label>Filter.States</label>
+      <value type="oblivion.db.lex.LexicalFilter">
+        <oblivion.db.lex.LexicalFilter ref="Filter0"/>
+      </value>
+    </variable>
+  </object>
+  <object id="value45" type="oblivion.db.op.ExpressionFilter">
+    <filter>
+      <expr kind="function">
+        <schema ref="value27"/>
+        <op>
+          <name>oblivion.db.op.functions.SelectionFunctions$SelectionGet</name>
+        </op>
+        <expr kind="variable">
+          <op>
+            <variable ref="variable17"/>
+          </op>
+        </expr>
+        <expr kind="function">
+          <op>
+            <name>oblivion.db.op.functions.IntegerFunctions$Invoke</name>
+          </op>
+          <expr kind="variable">
+            <op>
+              <variable ref="variable36"/>
+            </op>
+          </expr>
+        </expr>
+      </expr>
+    </filter>
+  </object>
+  <object id="Filter1" type="oblivion.db.lex.LexicalFilter">
+    <oblivion.db.lex.LexicalFilter>
+      <name>Filter.Counties</name>
+      <lschema ref="Schema2"/>
+      <filter ref="value45"/>
+    </oblivion.db.lex.LexicalFilter>
+  </object>
+  <object id="variable44" type="oblivion.lp.Variable">
+    <variable>
+      <prototype ref="prototype20"/>
+      <name>Filter.Counties</name>
+      <annotation>
+        <description/>
+      </annotation>
+      <label>Filter.Counties</label>
+      <value type="oblivion.db.lex.LexicalFilter">
+        <oblivion.db.lex.LexicalFilter ref="Filter1"/>
+      </value>
+    </variable>
+  </object>
+  <object id="variable45" type="oblivion.lp.Variable">
+    <variable>
+      <prototype ref="prototype20"/>
+      <name>Filter.Counties1</name>
+      <label>Filter.Counties</label>
+      <value type="oblivion.db.lex.LexicalFilter">
+        <oblivion.db.lex.LexicalFilter ref="Filter1"/>
+      </value>
+    </variable>
+  </object>
+  <object id="value46" type="oblivion.db.op.ExpressionFilter">
+    <filter>
+      <expr kind="function">
+        <op>
+          <name>oblivion.db.op.functions.StringFunctions$CompareEQ</name>
+        </op>
+        <expr kind="value">
+          <op>
+            <value type="java.lang.String">
+              <string>OK</string>
+            </value>
+          </op>
+        </expr>
+        <expr kind="value">
+          <op>
+            <value type="java.lang.String">
+              <string ref="value16"/>
+            </value>
+          </op>
+        </expr>
+      </expr>
+    </filter>
+  </object>
+  <object id="Filter2" type="oblivion.db.lex.LexicalFilter">
+    <oblivion.db.lex.LexicalFilter>
+      <name>Filter.Zones</name>
+      <lschema ref="Schema3"/>
+      <filter ref="value46"/>
+    </oblivion.db.lex.LexicalFilter>
+  </object>
+  <object id="variable46" type="oblivion.lp.Variable">
+    <variable>
+      <prototype ref="prototype20"/>
+      <name>Filter.Zones</name>
+      <annotation>
+        <description/>
+      </annotation>
+      <label>Filter.Zones</label>
+      <value type="oblivion.db.lex.LexicalFilter">
+        <oblivion.db.lex.LexicalFilter ref="Filter2"/>
+      </value>
+    </variable>
+  </object>
+  <object id="value47" type="oblivion.db.op.ExpressionFilter">
+    <filter>
+      <expr kind="function">
+        <schema ref="value27"/>
+        <op>
+          <name>oblivion.db.op.functions.BooleanFunctions$Or</name>
+          <count>56</count>
+        </op>
+        <expr kind="function">
+          <op>
+            <name>oblivion.db.op.functions.BooleanFunctions$And</name>
+          </op>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.SelectionFunctions$IsSelected2</name>
+            </op>
+            <expr kind="variable">
+              <op>
+                <variable ref="variable9"/>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="int">
+                  <int>0</int>
+                </value>
+              </op>
+            </expr>
+          </expr>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.StringFunctions$CompareEQ</name>
+            </op>
+            <expr kind="attribute">
+              <op>
+                <index>2</index>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="java.lang.String">
+                  <string>AK</string>
+                </value>
+              </op>
+            </expr>
+          </expr>
+        </expr>
+        <expr kind="function">
+          <op>
+            <name>oblivion.db.op.functions.BooleanFunctions$And</name>
+          </op>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.SelectionFunctions$IsSelected2</name>
+            </op>
+            <expr kind="variable">
+              <op>
+                <variable ref="variable9"/>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="int">
+                  <int>1</int>
+                </value>
+              </op>
+            </expr>
+          </expr>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.StringFunctions$CompareEQ</name>
+            </op>
+            <expr kind="attribute">
+              <op>
+                <index>2</index>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="java.lang.String">
+                  <string>AL</string>
+                </value>
+              </op>
+            </expr>
+          </expr>
+        </expr>
+        <expr kind="function">
+          <op>
+            <name>oblivion.db.op.functions.BooleanFunctions$And</name>
+          </op>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.SelectionFunctions$IsSelected2</name>
+            </op>
+            <expr kind="variable">
+              <op>
+                <variable ref="variable9"/>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="int">
+                  <int>2</int>
+                </value>
+              </op>
+            </expr>
+          </expr>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.StringFunctions$CompareEQ</name>
+            </op>
+            <expr kind="attribute">
+              <op>
+                <index>2</index>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="java.lang.String">
+                  <string>AR</string>
+                </value>
+              </op>
+            </expr>
+          </expr>
+        </expr>
+        <expr kind="function">
+          <op>
+            <name>oblivion.db.op.functions.BooleanFunctions$And</name>
+          </op>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.SelectionFunctions$IsSelected2</name>
+            </op>
+            <expr kind="variable">
+              <op>
+                <variable ref="variable9"/>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="int">
+                  <int>3</int>
+                </value>
+              </op>
+            </expr>
+          </expr>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.StringFunctions$CompareEQ</name>
+            </op>
+            <expr kind="attribute">
+              <op>
+                <index>2</index>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="java.lang.String">
+                  <string>AS</string>
+                </value>
+              </op>
+            </expr>
+          </expr>
+        </expr>
+        <expr kind="function">
+          <op>
+            <name>oblivion.db.op.functions.BooleanFunctions$And</name>
+          </op>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.SelectionFunctions$IsSelected2</name>
+            </op>
+            <expr kind="variable">
+              <op>
+                <variable ref="variable9"/>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="int">
+                  <int>4</int>
+                </value>
+              </op>
+            </expr>
+          </expr>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.StringFunctions$CompareEQ</name>
+            </op>
+            <expr kind="attribute">
+              <op>
+                <index>2</index>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="java.lang.String">
+                  <string ref="value17"/>
+                </value>
+              </op>
+            </expr>
+          </expr>
+        </expr>
+        <expr kind="function">
+          <op>
+            <name>oblivion.db.op.functions.BooleanFunctions$And</name>
+          </op>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.SelectionFunctions$IsSelected2</name>
+            </op>
+            <expr kind="variable">
+              <op>
+                <variable ref="variable9"/>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="int">
+                  <int>5</int>
+                </value>
+              </op>
+            </expr>
+          </expr>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.StringFunctions$CompareEQ</name>
+            </op>
+            <expr kind="attribute">
+              <op>
+                <index>2</index>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="java.lang.String">
+                  <string>CA</string>
+                </value>
+              </op>
+            </expr>
+          </expr>
+        </expr>
+        <expr kind="function">
+          <op>
+            <name>oblivion.db.op.functions.BooleanFunctions$And</name>
+          </op>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.SelectionFunctions$IsSelected2</name>
+            </op>
+            <expr kind="variable">
+              <op>
+                <variable ref="variable9"/>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="int">
+                  <int>6</int>
+                </value>
+              </op>
+            </expr>
+          </expr>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.StringFunctions$CompareEQ</name>
+            </op>
+            <expr kind="attribute">
+              <op>
+                <index>2</index>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="java.lang.String">
+                  <string>CO</string>
+                </value>
+              </op>
+            </expr>
+          </expr>
+        </expr>
+        <expr kind="function">
+          <op>
+            <name>oblivion.db.op.functions.BooleanFunctions$And</name>
+          </op>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.SelectionFunctions$IsSelected2</name>
+            </op>
+            <expr kind="variable">
+              <op>
+                <variable ref="variable9"/>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="int">
+                  <int>7</int>
+                </value>
+              </op>
+            </expr>
+          </expr>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.StringFunctions$CompareEQ</name>
+            </op>
+            <expr kind="attribute">
+              <op>
+                <index>2</index>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="java.lang.String">
+                  <string>CT</string>
+                </value>
+              </op>
+            </expr>
+          </expr>
+        </expr>
+        <expr kind="function">
+          <op>
+            <name>oblivion.db.op.functions.BooleanFunctions$And</name>
+          </op>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.SelectionFunctions$IsSelected2</name>
+            </op>
+            <expr kind="variable">
+              <op>
+                <variable ref="variable9"/>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="int">
+                  <int>8</int>
+                </value>
+              </op>
+            </expr>
+          </expr>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.StringFunctions$CompareEQ</name>
+            </op>
+            <expr kind="attribute">
+              <op>
+                <index>2</index>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="java.lang.String">
+                  <string>DC</string>
+                </value>
+              </op>
+            </expr>
+          </expr>
+        </expr>
+        <expr kind="function">
+          <op>
+            <name>oblivion.db.op.functions.BooleanFunctions$And</name>
+          </op>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.SelectionFunctions$IsSelected2</name>
+            </op>
+            <expr kind="variable">
+              <op>
+                <variable ref="variable9"/>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="int">
+                  <int>9</int>
+                </value>
+              </op>
+            </expr>
+          </expr>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.StringFunctions$CompareEQ</name>
+            </op>
+            <expr kind="attribute">
+              <op>
+                <index>2</index>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="java.lang.String">
+                  <string>DE</string>
+                </value>
+              </op>
+            </expr>
+          </expr>
+        </expr>
+        <expr kind="function">
+          <op>
+            <name>oblivion.db.op.functions.BooleanFunctions$And</name>
+          </op>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.SelectionFunctions$IsSelected2</name>
+            </op>
+            <expr kind="variable">
+              <op>
+                <variable ref="variable9"/>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="int">
+                  <int>10</int>
+                </value>
+              </op>
+            </expr>
+          </expr>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.StringFunctions$CompareEQ</name>
+            </op>
+            <expr kind="attribute">
+              <op>
+                <index>2</index>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="java.lang.String">
+                  <string>FL</string>
+                </value>
+              </op>
+            </expr>
+          </expr>
+        </expr>
+        <expr kind="function">
+          <op>
+            <name>oblivion.db.op.functions.BooleanFunctions$And</name>
+          </op>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.SelectionFunctions$IsSelected2</name>
+            </op>
+            <expr kind="variable">
+              <op>
+                <variable ref="variable9"/>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="int">
+                  <int>11</int>
+                </value>
+              </op>
+            </expr>
+          </expr>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.StringFunctions$CompareEQ</name>
+            </op>
+            <expr kind="attribute">
+              <op>
+                <index>2</index>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="java.lang.String">
+                  <string>GA</string>
+                </value>
+              </op>
+            </expr>
+          </expr>
+        </expr>
+        <expr kind="function">
+          <op>
+            <name>oblivion.db.op.functions.BooleanFunctions$And</name>
+          </op>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.SelectionFunctions$IsSelected2</name>
+            </op>
+            <expr kind="variable">
+              <op>
+                <variable ref="variable9"/>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="int">
+                  <int>12</int>
+                </value>
+              </op>
+            </expr>
+          </expr>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.StringFunctions$CompareEQ</name>
+            </op>
+            <expr kind="attribute">
+              <op>
+                <index>2</index>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="java.lang.String">
+                  <string>GU</string>
+                </value>
+              </op>
+            </expr>
+          </expr>
+        </expr>
+        <expr kind="function">
+          <op>
+            <name>oblivion.db.op.functions.BooleanFunctions$And</name>
+          </op>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.SelectionFunctions$IsSelected2</name>
+            </op>
+            <expr kind="variable">
+              <op>
+                <variable ref="variable9"/>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="int">
+                  <int>13</int>
+                </value>
+              </op>
+            </expr>
+          </expr>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.StringFunctions$CompareEQ</name>
+            </op>
+            <expr kind="attribute">
+              <op>
+                <index>2</index>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="java.lang.String">
+                  <string>IA</string>
+                </value>
+              </op>
+            </expr>
+          </expr>
+        </expr>
+        <expr kind="function">
+          <op>
+            <name>oblivion.db.op.functions.BooleanFunctions$And</name>
+          </op>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.SelectionFunctions$IsSelected2</name>
+            </op>
+            <expr kind="variable">
+              <op>
+                <variable ref="variable9"/>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="int">
+                  <int>14</int>
+                </value>
+              </op>
+            </expr>
+          </expr>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.StringFunctions$CompareEQ</name>
+            </op>
+            <expr kind="attribute">
+              <op>
+                <index>2</index>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="java.lang.String">
+                  <string>ID</string>
+                </value>
+              </op>
+            </expr>
+          </expr>
+        </expr>
+        <expr kind="function">
+          <op>
+            <name>oblivion.db.op.functions.BooleanFunctions$And</name>
+          </op>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.SelectionFunctions$IsSelected2</name>
+            </op>
+            <expr kind="variable">
+              <op>
+                <variable ref="variable9"/>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="int">
+                  <int>15</int>
+                </value>
+              </op>
+            </expr>
+          </expr>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.StringFunctions$CompareEQ</name>
+            </op>
+            <expr kind="attribute">
+              <op>
+                <index>2</index>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="java.lang.String">
+                  <string>IL</string>
+                </value>
+              </op>
+            </expr>
+          </expr>
+        </expr>
+        <expr kind="function">
+          <op>
+            <name>oblivion.db.op.functions.BooleanFunctions$And</name>
+          </op>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.SelectionFunctions$IsSelected2</name>
+            </op>
+            <expr kind="variable">
+              <op>
+                <variable ref="variable9"/>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="int">
+                  <int>16</int>
+                </value>
+              </op>
+            </expr>
+          </expr>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.StringFunctions$CompareEQ</name>
+            </op>
+            <expr kind="attribute">
+              <op>
+                <index>2</index>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="java.lang.String">
+                  <string>IN</string>
+                </value>
+              </op>
+            </expr>
+          </expr>
+        </expr>
+        <expr kind="function">
+          <op>
+            <name>oblivion.db.op.functions.BooleanFunctions$And</name>
+          </op>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.SelectionFunctions$IsSelected2</name>
+            </op>
+            <expr kind="variable">
+              <op>
+                <variable ref="variable9"/>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="int">
+                  <int>17</int>
+                </value>
+              </op>
+            </expr>
+          </expr>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.StringFunctions$CompareEQ</name>
+            </op>
+            <expr kind="attribute">
+              <op>
+                <index>2</index>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="java.lang.String">
+                  <string>KS</string>
+                </value>
+              </op>
+            </expr>
+          </expr>
+        </expr>
+        <expr kind="function">
+          <op>
+            <name>oblivion.db.op.functions.BooleanFunctions$And</name>
+          </op>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.SelectionFunctions$IsSelected2</name>
+            </op>
+            <expr kind="variable">
+              <op>
+                <variable ref="variable9"/>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="int">
+                  <int>18</int>
+                </value>
+              </op>
+            </expr>
+          </expr>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.StringFunctions$CompareEQ</name>
+            </op>
+            <expr kind="attribute">
+              <op>
+                <index>2</index>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="java.lang.String">
+                  <string>KY</string>
+                </value>
+              </op>
+            </expr>
+          </expr>
+        </expr>
+        <expr kind="function">
+          <op>
+            <name>oblivion.db.op.functions.BooleanFunctions$And</name>
+          </op>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.SelectionFunctions$IsSelected2</name>
+            </op>
+            <expr kind="variable">
+              <op>
+                <variable ref="variable9"/>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="int">
+                  <int>19</int>
+                </value>
+              </op>
+            </expr>
+          </expr>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.StringFunctions$CompareEQ</name>
+            </op>
+            <expr kind="attribute">
+              <op>
+                <index>2</index>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="java.lang.String">
+                  <string>LA</string>
+                </value>
+              </op>
+            </expr>
+          </expr>
+        </expr>
+        <expr kind="function">
+          <op>
+            <name>oblivion.db.op.functions.BooleanFunctions$And</name>
+          </op>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.SelectionFunctions$IsSelected2</name>
+            </op>
+            <expr kind="variable">
+              <op>
+                <variable ref="variable9"/>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="int">
+                  <int>20</int>
+                </value>
+              </op>
+            </expr>
+          </expr>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.StringFunctions$CompareEQ</name>
+            </op>
+            <expr kind="attribute">
+              <op>
+                <index>2</index>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="java.lang.String">
+                  <string>MA</string>
+                </value>
+              </op>
+            </expr>
+          </expr>
+        </expr>
+        <expr kind="function">
+          <op>
+            <name>oblivion.db.op.functions.BooleanFunctions$And</name>
+          </op>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.SelectionFunctions$IsSelected2</name>
+            </op>
+            <expr kind="variable">
+              <op>
+                <variable ref="variable9"/>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="int">
+                  <int>21</int>
+                </value>
+              </op>
+            </expr>
+          </expr>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.StringFunctions$CompareEQ</name>
+            </op>
+            <expr kind="attribute">
+              <op>
+                <index>2</index>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="java.lang.String">
+                  <string>ME</string>
+                </value>
+              </op>
+            </expr>
+          </expr>
+        </expr>
+        <expr kind="function">
+          <op>
+            <name>oblivion.db.op.functions.BooleanFunctions$And</name>
+          </op>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.SelectionFunctions$IsSelected2</name>
+            </op>
+            <expr kind="variable">
+              <op>
+                <variable ref="variable9"/>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="int">
+                  <int>22</int>
+                </value>
+              </op>
+            </expr>
+          </expr>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.StringFunctions$CompareEQ</name>
+            </op>
+            <expr kind="attribute">
+              <op>
+                <index>2</index>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="java.lang.String">
+                  <string>MI</string>
+                </value>
+              </op>
+            </expr>
+          </expr>
+        </expr>
+        <expr kind="function">
+          <op>
+            <name>oblivion.db.op.functions.BooleanFunctions$And</name>
+          </op>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.SelectionFunctions$IsSelected2</name>
+            </op>
+            <expr kind="variable">
+              <op>
+                <variable ref="variable9"/>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="int">
+                  <int>23</int>
+                </value>
+              </op>
+            </expr>
+          </expr>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.StringFunctions$CompareEQ</name>
+            </op>
+            <expr kind="attribute">
+              <op>
+                <index>2</index>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="java.lang.String">
+                  <string>MN</string>
+                </value>
+              </op>
+            </expr>
+          </expr>
+        </expr>
+        <expr kind="function">
+          <op>
+            <name>oblivion.db.op.functions.BooleanFunctions$And</name>
+          </op>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.SelectionFunctions$IsSelected2</name>
+            </op>
+            <expr kind="variable">
+              <op>
+                <variable ref="variable9"/>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="int">
+                  <int>24</int>
+                </value>
+              </op>
+            </expr>
+          </expr>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.StringFunctions$CompareEQ</name>
+            </op>
+            <expr kind="attribute">
+              <op>
+                <index>2</index>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="java.lang.String">
+                  <string>MO</string>
+                </value>
+              </op>
+            </expr>
+          </expr>
+        </expr>
+        <expr kind="function">
+          <op>
+            <name>oblivion.db.op.functions.BooleanFunctions$And</name>
+          </op>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.SelectionFunctions$IsSelected2</name>
+            </op>
+            <expr kind="variable">
+              <op>
+                <variable ref="variable9"/>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="int">
+                  <int>25</int>
+                </value>
+              </op>
+            </expr>
+          </expr>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.StringFunctions$CompareEQ</name>
+            </op>
+            <expr kind="attribute">
+              <op>
+                <index>2</index>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="java.lang.String">
+                  <string>MS</string>
+                </value>
+              </op>
+            </expr>
+          </expr>
+        </expr>
+        <expr kind="function">
+          <op>
+            <name>oblivion.db.op.functions.BooleanFunctions$And</name>
+          </op>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.SelectionFunctions$IsSelected2</name>
+            </op>
+            <expr kind="variable">
+              <op>
+                <variable ref="variable9"/>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="int">
+                  <int>26</int>
+                </value>
+              </op>
+            </expr>
+          </expr>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.StringFunctions$CompareEQ</name>
+            </op>
+            <expr kind="attribute">
+              <op>
+                <index>2</index>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="java.lang.String">
+                  <string>MT</string>
+                </value>
+              </op>
+            </expr>
+          </expr>
+        </expr>
+        <expr kind="function">
+          <op>
+            <name>oblivion.db.op.functions.BooleanFunctions$And</name>
+          </op>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.SelectionFunctions$IsSelected2</name>
+            </op>
+            <expr kind="variable">
+              <op>
+                <variable ref="variable9"/>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="int">
+                  <int>27</int>
+                </value>
+              </op>
+            </expr>
+          </expr>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.StringFunctions$CompareEQ</name>
+            </op>
+            <expr kind="attribute">
+              <op>
+                <index>2</index>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="java.lang.String">
+                  <string>NC</string>
+                </value>
+              </op>
+            </expr>
+          </expr>
+        </expr>
+        <expr kind="function">
+          <op>
+            <name>oblivion.db.op.functions.BooleanFunctions$And</name>
+          </op>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.SelectionFunctions$IsSelected2</name>
+            </op>
+            <expr kind="variable">
+              <op>
+                <variable ref="variable9"/>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="int">
+                  <int>28</int>
+                </value>
+              </op>
+            </expr>
+          </expr>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.StringFunctions$CompareEQ</name>
+            </op>
+            <expr kind="attribute">
+              <op>
+                <index>2</index>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="java.lang.String">
+                  <string>ND</string>
+                </value>
+              </op>
+            </expr>
+          </expr>
+        </expr>
+        <expr kind="function">
+          <op>
+            <name>oblivion.db.op.functions.BooleanFunctions$And</name>
+          </op>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.SelectionFunctions$IsSelected2</name>
+            </op>
+            <expr kind="variable">
+              <op>
+                <variable ref="variable9"/>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="int">
+                  <int>29</int>
+                </value>
+              </op>
+            </expr>
+          </expr>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.StringFunctions$CompareEQ</name>
+            </op>
+            <expr kind="attribute">
+              <op>
+                <index>2</index>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="java.lang.String">
+                  <string>NE</string>
+                </value>
+              </op>
+            </expr>
+          </expr>
+        </expr>
+        <expr kind="function">
+          <op>
+            <name>oblivion.db.op.functions.BooleanFunctions$And</name>
+          </op>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.SelectionFunctions$IsSelected2</name>
+            </op>
+            <expr kind="variable">
+              <op>
+                <variable ref="variable9"/>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="int">
+                  <int>30</int>
+                </value>
+              </op>
+            </expr>
+          </expr>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.StringFunctions$CompareEQ</name>
+            </op>
+            <expr kind="attribute">
+              <op>
+                <index>2</index>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="java.lang.String">
+                  <string>NH</string>
+                </value>
+              </op>
+            </expr>
+          </expr>
+        </expr>
+        <expr kind="function">
+          <op>
+            <name>oblivion.db.op.functions.BooleanFunctions$And</name>
+          </op>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.SelectionFunctions$IsSelected2</name>
+            </op>
+            <expr kind="variable">
+              <op>
+                <variable ref="variable9"/>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="int">
+                  <int>31</int>
+                </value>
+              </op>
+            </expr>
+          </expr>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.StringFunctions$CompareEQ</name>
+            </op>
+            <expr kind="attribute">
+              <op>
+                <index>2</index>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="java.lang.String">
+                  <string>NJ</string>
+                </value>
+              </op>
+            </expr>
+          </expr>
+        </expr>
+        <expr kind="function">
+          <op>
+            <name>oblivion.db.op.functions.BooleanFunctions$And</name>
+          </op>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.SelectionFunctions$IsSelected2</name>
+            </op>
+            <expr kind="variable">
+              <op>
+                <variable ref="variable9"/>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="int">
+                  <int>32</int>
+                </value>
+              </op>
+            </expr>
+          </expr>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.StringFunctions$CompareEQ</name>
+            </op>
+            <expr kind="attribute">
+              <op>
+                <index>2</index>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="java.lang.String">
+                  <string>NM</string>
+                </value>
+              </op>
+            </expr>
+          </expr>
+        </expr>
+        <expr kind="function">
+          <op>
+            <name>oblivion.db.op.functions.BooleanFunctions$And</name>
+          </op>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.SelectionFunctions$IsSelected2</name>
+            </op>
+            <expr kind="variable">
+              <op>
+                <variable ref="variable9"/>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="int">
+                  <int>33</int>
+                </value>
+              </op>
+            </expr>
+          </expr>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.StringFunctions$CompareEQ</name>
+            </op>
+            <expr kind="attribute">
+              <op>
+                <index>2</index>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="java.lang.String">
+                  <string>NV</string>
+                </value>
+              </op>
+            </expr>
+          </expr>
+        </expr>
+        <expr kind="function">
+          <op>
+            <name>oblivion.db.op.functions.BooleanFunctions$And</name>
+          </op>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.SelectionFunctions$IsSelected2</name>
+            </op>
+            <expr kind="variable">
+              <op>
+                <variable ref="variable9"/>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="int">
+                  <int>34</int>
+                </value>
+              </op>
+            </expr>
+          </expr>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.StringFunctions$CompareEQ</name>
+            </op>
+            <expr kind="attribute">
+              <op>
+                <index>2</index>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="java.lang.String">
+                  <string>NY</string>
+                </value>
+              </op>
+            </expr>
+          </expr>
+        </expr>
+        <expr kind="function">
+          <op>
+            <name>oblivion.db.op.functions.BooleanFunctions$And</name>
+          </op>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.SelectionFunctions$IsSelected2</name>
+            </op>
+            <expr kind="variable">
+              <op>
+                <variable ref="variable9"/>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="int">
+                  <int>35</int>
+                </value>
+              </op>
+            </expr>
+          </expr>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.StringFunctions$CompareEQ</name>
+            </op>
+            <expr kind="attribute">
+              <op>
+                <index>2</index>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="java.lang.String">
+                  <string>OH</string>
+                </value>
+              </op>
+            </expr>
+          </expr>
+        </expr>
+        <expr kind="function">
+          <op>
+            <name>oblivion.db.op.functions.BooleanFunctions$And</name>
+          </op>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.SelectionFunctions$IsSelected2</name>
+            </op>
+            <expr kind="variable">
+              <op>
+                <variable ref="variable9"/>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="int">
+                  <int>36</int>
+                </value>
+              </op>
+            </expr>
+          </expr>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.StringFunctions$CompareEQ</name>
+            </op>
+            <expr kind="attribute">
+              <op>
+                <index>2</index>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="java.lang.String">
+                  <string>OK</string>
+                </value>
+              </op>
+            </expr>
+          </expr>
+        </expr>
+        <expr kind="function">
+          <op>
+            <name>oblivion.db.op.functions.BooleanFunctions$And</name>
+          </op>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.SelectionFunctions$IsSelected2</name>
+            </op>
+            <expr kind="variable">
+              <op>
+                <variable ref="variable9"/>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="int">
+                  <int>37</int>
+                </value>
+              </op>
+            </expr>
+          </expr>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.StringFunctions$CompareEQ</name>
+            </op>
+            <expr kind="attribute">
+              <op>
+                <index>2</index>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="java.lang.String">
+                  <string>OR</string>
+                </value>
+              </op>
+            </expr>
+          </expr>
+        </expr>
+        <expr kind="function">
+          <op>
+            <name>oblivion.db.op.functions.BooleanFunctions$And</name>
+          </op>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.SelectionFunctions$IsSelected2</name>
+            </op>
+            <expr kind="variable">
+              <op>
+                <variable ref="variable9"/>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="int">
+                  <int>38</int>
+                </value>
+              </op>
+            </expr>
+          </expr>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.StringFunctions$CompareEQ</name>
+            </op>
+            <expr kind="attribute">
+              <op>
+                <index>2</index>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="java.lang.String">
+                  <string>PA</string>
+                </value>
+              </op>
+            </expr>
+          </expr>
+        </expr>
+        <expr kind="function">
+          <op>
+            <name>oblivion.db.op.functions.BooleanFunctions$And</name>
+          </op>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.SelectionFunctions$IsSelected2</name>
+            </op>
+            <expr kind="variable">
+              <op>
+                <variable ref="variable9"/>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="int">
+                  <int>39</int>
+                </value>
+              </op>
+            </expr>
+          </expr>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.StringFunctions$CompareEQ</name>
+            </op>
+            <expr kind="attribute">
+              <op>
+                <index>2</index>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="java.lang.String">
+                  <string>PR</string>
+                </value>
+              </op>
+            </expr>
+          </expr>
+        </expr>
+        <expr kind="function">
+          <op>
+            <name>oblivion.db.op.functions.BooleanFunctions$And</name>
+          </op>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.SelectionFunctions$IsSelected2</name>
+            </op>
+            <expr kind="variable">
+              <op>
+                <variable ref="variable9"/>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="int">
+                  <int>40</int>
+                </value>
+              </op>
+            </expr>
+          </expr>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.StringFunctions$CompareEQ</name>
+            </op>
+            <expr kind="attribute">
+              <op>
+                <index>2</index>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="java.lang.String">
+                  <string>RI</string>
+                </value>
+              </op>
+            </expr>
+          </expr>
+        </expr>
+        <expr kind="function">
+          <op>
+            <name>oblivion.db.op.functions.BooleanFunctions$And</name>
+          </op>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.SelectionFunctions$IsSelected2</name>
+            </op>
+            <expr kind="variable">
+              <op>
+                <variable ref="variable9"/>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="int">
+                  <int>41</int>
+                </value>
+              </op>
+            </expr>
+          </expr>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.StringFunctions$CompareEQ</name>
+            </op>
+            <expr kind="attribute">
+              <op>
+                <index>2</index>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="java.lang.String">
+                  <string>SD</string>
+                </value>
+              </op>
+            </expr>
+          </expr>
+        </expr>
+        <expr kind="function">
+          <op>
+            <name>oblivion.db.op.functions.BooleanFunctions$And</name>
+          </op>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.SelectionFunctions$IsSelected2</name>
+            </op>
+            <expr kind="variable">
+              <op>
+                <variable ref="variable9"/>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="int">
+                  <int>42</int>
+                </value>
+              </op>
+            </expr>
+          </expr>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.StringFunctions$CompareEQ</name>
+            </op>
+            <expr kind="attribute">
+              <op>
+                <index>2</index>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="java.lang.String">
+                  <string>TN</string>
+                </value>
+              </op>
+            </expr>
+          </expr>
+        </expr>
+        <expr kind="function">
+          <op>
+            <name>oblivion.db.op.functions.BooleanFunctions$And</name>
+          </op>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.SelectionFunctions$IsSelected2</name>
+            </op>
+            <expr kind="variable">
+              <op>
+                <variable ref="variable9"/>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="int">
+                  <int>43</int>
+                </value>
+              </op>
+            </expr>
+          </expr>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.StringFunctions$CompareEQ</name>
+            </op>
+            <expr kind="attribute">
+              <op>
+                <index>2</index>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="java.lang.String">
+                  <string>UT</string>
+                </value>
+              </op>
+            </expr>
+          </expr>
+        </expr>
+        <expr kind="function">
+          <op>
+            <name>oblivion.db.op.functions.BooleanFunctions$And</name>
+          </op>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.SelectionFunctions$IsSelected2</name>
+            </op>
+            <expr kind="variable">
+              <op>
+                <variable ref="variable9"/>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="int">
+                  <int>44</int>
+                </value>
+              </op>
+            </expr>
+          </expr>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.StringFunctions$CompareEQ</name>
+            </op>
+            <expr kind="attribute">
+              <op>
+                <index>2</index>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="java.lang.String">
+                  <string>VA</string>
+                </value>
+              </op>
+            </expr>
+          </expr>
+        </expr>
+        <expr kind="function">
+          <op>
+            <name>oblivion.db.op.functions.BooleanFunctions$And</name>
+          </op>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.SelectionFunctions$IsSelected2</name>
+            </op>
+            <expr kind="variable">
+              <op>
+                <variable ref="variable9"/>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="int">
+                  <int>45</int>
+                </value>
+              </op>
+            </expr>
+          </expr>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.StringFunctions$CompareEQ</name>
+            </op>
+            <expr kind="attribute">
+              <op>
+                <index>2</index>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="java.lang.String">
+                  <string>VI</string>
+                </value>
+              </op>
+            </expr>
+          </expr>
+        </expr>
+        <expr kind="function">
+          <op>
+            <name>oblivion.db.op.functions.BooleanFunctions$And</name>
+          </op>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.SelectionFunctions$IsSelected2</name>
+            </op>
+            <expr kind="variable">
+              <op>
+                <variable ref="variable9"/>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="int">
+                  <int>46</int>
+                </value>
+              </op>
+            </expr>
+          </expr>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.StringFunctions$CompareEQ</name>
+            </op>
+            <expr kind="attribute">
+              <op>
+                <index>2</index>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="java.lang.String">
+                  <string>VT</string>
+                </value>
+              </op>
+            </expr>
+          </expr>
+        </expr>
+        <expr kind="function">
+          <op>
+            <name>oblivion.db.op.functions.BooleanFunctions$And</name>
+          </op>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.SelectionFunctions$IsSelected2</name>
+            </op>
+            <expr kind="variable">
+              <op>
+                <variable ref="variable9"/>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="int">
+                  <int>47</int>
+                </value>
+              </op>
+            </expr>
+          </expr>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.StringFunctions$CompareEQ</name>
+            </op>
+            <expr kind="attribute">
+              <op>
+                <index>2</index>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="java.lang.String">
+                  <string>WA</string>
+                </value>
+              </op>
+            </expr>
+          </expr>
+        </expr>
+        <expr kind="function">
+          <op>
+            <name>oblivion.db.op.functions.BooleanFunctions$And</name>
+          </op>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.SelectionFunctions$IsSelected2</name>
+            </op>
+            <expr kind="variable">
+              <op>
+                <variable ref="variable9"/>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="int">
+                  <int>48</int>
+                </value>
+              </op>
+            </expr>
+          </expr>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.StringFunctions$CompareEQ</name>
+            </op>
+            <expr kind="attribute">
+              <op>
+                <index>2</index>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="java.lang.String">
+                  <string>WI</string>
+                </value>
+              </op>
+            </expr>
+          </expr>
+        </expr>
+        <expr kind="function">
+          <op>
+            <name>oblivion.db.op.functions.BooleanFunctions$And</name>
+          </op>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.SelectionFunctions$IsSelected2</name>
+            </op>
+            <expr kind="variable">
+              <op>
+                <variable ref="variable9"/>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="int">
+                  <int>49</int>
+                </value>
+              </op>
+            </expr>
+          </expr>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.StringFunctions$CompareEQ</name>
+            </op>
+            <expr kind="attribute">
+              <op>
+                <index>2</index>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="java.lang.String">
+                  <string>WV</string>
+                </value>
+              </op>
+            </expr>
+          </expr>
+        </expr>
+        <expr kind="function">
+          <op>
+            <name>oblivion.db.op.functions.BooleanFunctions$And</name>
+          </op>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.SelectionFunctions$IsSelected2</name>
+            </op>
+            <expr kind="variable">
+              <op>
+                <variable ref="variable9"/>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="int">
+                  <int>50</int>
+                </value>
+              </op>
+            </expr>
+          </expr>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.StringFunctions$CompareEQ</name>
+            </op>
+            <expr kind="attribute">
+              <op>
+                <index>2</index>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="java.lang.String">
+                  <string>WY</string>
+                </value>
+              </op>
+            </expr>
+          </expr>
+        </expr>
+        <expr kind="function">
+          <op>
+            <name>oblivion.db.op.functions.BooleanFunctions$And</name>
+          </op>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.SelectionFunctions$IsSelected2</name>
+            </op>
+            <expr kind="variable">
+              <op>
+                <variable ref="variable9"/>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="int">
+                  <int>51</int>
+                </value>
+              </op>
+            </expr>
+          </expr>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.StringFunctions$CompareEQ</name>
+            </op>
+            <expr kind="attribute">
+              <op>
+                <index>2</index>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="java.lang.String">
+                  <string>SC</string>
+                </value>
+              </op>
+            </expr>
+          </expr>
+        </expr>
+        <expr kind="function">
+          <op>
+            <name>oblivion.db.op.functions.BooleanFunctions$And</name>
+          </op>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.SelectionFunctions$IsSelected2</name>
+            </op>
+            <expr kind="variable">
+              <op>
+                <variable ref="variable9"/>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="int">
+                  <int>52</int>
+                </value>
+              </op>
+            </expr>
+          </expr>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.StringFunctions$CompareEQ</name>
+            </op>
+            <expr kind="attribute">
+              <op>
+                <index>2</index>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="java.lang.String">
+                  <string>MD</string>
+                </value>
+              </op>
+            </expr>
+          </expr>
+        </expr>
+        <expr kind="function">
+          <op>
+            <name>oblivion.db.op.functions.BooleanFunctions$And</name>
+          </op>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.SelectionFunctions$IsSelected2</name>
+            </op>
+            <expr kind="variable">
+              <op>
+                <variable ref="variable9"/>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="int">
+                  <int>53</int>
+                </value>
+              </op>
+            </expr>
+          </expr>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.StringFunctions$CompareEQ</name>
+            </op>
+            <expr kind="attribute">
+              <op>
+                <index>2</index>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="java.lang.String">
+                  <string>TX</string>
+                </value>
+              </op>
+            </expr>
+          </expr>
+        </expr>
+        <expr kind="function">
+          <op>
+            <name>oblivion.db.op.functions.BooleanFunctions$And</name>
+          </op>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.SelectionFunctions$IsSelected2</name>
+            </op>
+            <expr kind="variable">
+              <op>
+                <variable ref="variable9"/>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="int">
+                  <int>54</int>
+                </value>
+              </op>
+            </expr>
+          </expr>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.StringFunctions$CompareEQ</name>
+            </op>
+            <expr kind="attribute">
+              <op>
+                <index>2</index>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="java.lang.String">
+                  <string ref="value16"/>
+                </value>
+              </op>
+            </expr>
+          </expr>
+        </expr>
+        <expr kind="function">
+          <op>
+            <name>oblivion.db.op.functions.BooleanFunctions$And</name>
+          </op>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.SelectionFunctions$IsSelected2</name>
+            </op>
+            <expr kind="variable">
+              <op>
+                <variable ref="variable9"/>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="int">
+                  <int>55</int>
+                </value>
+              </op>
+            </expr>
+          </expr>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.StringFunctions$CompareEQ</name>
+            </op>
+            <expr kind="attribute">
+              <op>
+                <index>2</index>
+              </op>
+            </expr>
+            <expr kind="value">
+              <op>
+                <value type="java.lang.String">
+                  <string>HI</string>
+                </value>
+              </op>
+            </expr>
+          </expr>
+        </expr>
+      </expr>
+    </filter>
+  </object>
+  <object id="Filter3" type="oblivion.db.lex.LexicalFilter">
+    <oblivion.db.lex.LexicalFilter>
+      <name>Filter.CountiesOfState</name>
+      <lschema ref="Schema2"/>
+      <filter ref="value47"/>
+    </oblivion.db.lex.LexicalFilter>
+  </object>
+  <object id="variable47" type="oblivion.lp.Variable">
+    <variable>
+      <prototype ref="prototype20"/>
+      <name>Filter.CountiesOfState</name>
+      <label>Filter.CountiesOfState</label>
+      <value type="oblivion.db.lex.LexicalFilter">
+        <oblivion.db.lex.LexicalFilter ref="Filter3"/>
+      </value>
+    </variable>
+  </object>
+  <object id="value48" type="oblivion.db.op.ExpressionProjection">
+    <projection>
+      <expr kind="function">
+        <schema ref="value27"/>
+        <op>
+          <name>oblivion.view.plane2D.glyph.Functions$CreateGeoShape</name>
+        </op>
+        <expr kind="value">
+          <op>
+            <value type="java.awt.Color">
+              <color>#00000000</color>
+            </value>
+          </op>
+        </expr>
+        <expr kind="value">
+          <op>
+            <value type="java.awt.Color">
+              <color>#000000d2</color>
+            </value>
+          </op>
+        </expr>
+        <expr kind="attribute">
+          <op>
+            <index>0</index>
+          </op>
+        </expr>
+      </expr>
+    </projection>
+  </object>
+  <object id="Projection0" type="oblivion.db.lex.LexicalProjection">
+    <oblivion.db.lex.LexicalProjection>
+      <name>Projection.Counties</name>
+      <loschema>
+        <name>Glyph.Plane2D</name>
+      </loschema>
+      <lischema ref="Schema2"/>
+      <projection ref="value48"/>
+    </oblivion.db.lex.LexicalProjection>
+  </object>
+  <object id="prototype21" type="oblivion.lp.Prototype">
+    <prototype>
+      <type>oblivion.db.lex.LexicalProjection</type>
+      <name ref="value16"/>
+    </prototype>
+  </object>
+  <object id="variable48" type="oblivion.lp.Variable">
+    <variable>
+      <prototype ref="prototype21"/>
+      <name>Projection.Counties</name>
+      <annotation>
+        <description/>
+      </annotation>
+      <label>Projection.Counties</label>
+      <value type="oblivion.db.lex.LexicalProjection">
+        <oblivion.db.lex.LexicalProjection ref="Projection0"/>
+      </value>
+    </variable>
+  </object>
+  <object id="variable49" type="oblivion.lp.Variable">
+    <variable>
+      <prototype ref="prototype21"/>
+      <name>Projection.Zone</name>
+      <annotation>
+        <description/>
+      </annotation>
+      <label>Projection.Zone</label>
+      <value type="oblivion.db.lex.LexicalProjection">
+        <oblivion.db.lex.LexicalProjection ref="Projection0"/>
+      </value>
+    </variable>
+  </object>
+  <object id="value49" type="oblivion.db.op.ExpressionProjection">
+    <projection>
+      <expr kind="function">
+        <schema ref="value26"/>
+        <op>
+          <name>oblivion.view.plane2D.glyph.Functions$CreateGeoShape</name>
+        </op>
+        <expr kind="value">
+          <op>
+            <value type="java.awt.Color">
+              <color>#ffffff</color>
+            </value>
+          </op>
+        </expr>
+        <expr kind="value">
+          <op>
+            <value type="java.awt.Color">
+              <color>#000000</color>
+            </value>
+          </op>
+        </expr>
+        <expr kind="attribute">
+          <op>
+            <index>0</index>
+          </op>
+        </expr>
+      </expr>
+    </projection>
+  </object>
+  <object id="Projection1" type="oblivion.db.lex.LexicalProjection">
+    <oblivion.db.lex.LexicalProjection>
+      <name>Projection.States</name>
+      <loschema>
+        <name>Glyph.Plane2D</name>
+      </loschema>
+      <lischema ref="Schema1"/>
+      <projection ref="value49"/>
+    </oblivion.db.lex.LexicalProjection>
+  </object>
+  <object id="variable50" type="oblivion.lp.Variable">
+    <variable>
+      <prototype ref="prototype21"/>
+      <name>Projection.States</name>
+      <annotation>
+        <description/>
+      </annotation>
+      <label>Projection.States</label>
+      <value type="oblivion.db.lex.LexicalProjection">
+        <oblivion.db.lex.LexicalProjection ref="Projection1"/>
+      </value>
+    </variable>
+  </object>
+  <object id="value50" type="oblivion.db.op.ExpressionProjection">
+    <projection>
+      <expr kind="function">
+        <op>
+          <name>oblivion.view.plane2D.glyph.Functions$CreateGeoShape</name>
+        </op>
+        <expr kind="value">
+          <op>
+            <value type="java.awt.Color">
+              <color>#00000000</color>
+            </value>
+          </op>
+        </expr>
+        <expr kind="value">
+          <op>
+            <value type="java.awt.Color">
+              <color>#00000083</color>
+            </value>
+          </op>
+        </expr>
+        <expr kind="value">
+          <op>
+            <value type="oblivion.geo.shape.GeoShape"/>
+          </op>
+        </expr>
+      </expr>
+    </projection>
+  </object>
+  <object id="Projection2" type="oblivion.db.lex.LexicalProjection">
+    <oblivion.db.lex.LexicalProjection>
+      <name>Projection.Zones</name>
+      <loschema>
+        <name>Glyph.Plane2D</name>
+      </loschema>
+      <lischema ref="Schema3"/>
+      <projection>
+        <expr kind="function">
+          <op>
+            <name>oblivion.view.plane2D.glyph.Functions$CreateGeoShape</name>
+          </op>
+          <expr kind="value">
+            <op>
+              <value type="java.awt.Color">
+                <color>#00000000</color>
+              </value>
+            </op>
+          </expr>
+          <expr kind="value">
+            <op>
+              <value type="java.awt.Color">
+                <color>#00000083</color>
+              </value>
+            </op>
+          </expr>
+          <expr kind="value">
+            <op>
+              <value type="oblivion.geo.shape.GeoShape"/>
+            </op>
+          </expr>
+        </expr>
+      </projection>
+    </oblivion.db.lex.LexicalProjection>
+  </object>
+  <object id="value51" type="oblivion.db.op.ExpressionProjection">
+    <projection>
+      <expr kind="function">
+        <op>
+          <name>oblivion.view.plane2D.glyph.Functions$CreateGeoShape</name>
+        </op>
+        <expr kind="value">
+          <op>
+            <value type="java.awt.Color">
+              <color>#00000000</color>
+            </value>
+          </op>
+        </expr>
+        <expr kind="value">
+          <op>
+            <value type="java.awt.Color">
+              <color>#00000083</color>
+            </value>
+          </op>
+        </expr>
+        <expr kind="value">
+          <op>
+            <value type="oblivion.geo.shape.GeoShape"/>
+          </op>
+        </expr>
+      </expr>
+    </projection>
+  </object>
+  <object id="Projection3" type="oblivion.db.lex.LexicalProjection">
+    <oblivion.db.lex.LexicalProjection>
+      <name>Projection.Zones0</name>
+      <loschema>
+        <name>Glyph.Plane2D</name>
+      </loschema>
+      <lischema ref="Schema3"/>
+      <projection>
+        <expr kind="function">
+          <op>
+            <name>oblivion.view.plane2D.glyph.Functions$CreateGeoShape</name>
+          </op>
+          <expr kind="value">
+            <op>
+              <value type="java.awt.Color">
+                <color>#00000000</color>
+              </value>
+            </op>
+          </expr>
+          <expr kind="value">
+            <op>
+              <value type="java.awt.Color">
+                <color>#00000083</color>
+              </value>
+            </op>
+          </expr>
+          <expr kind="value">
+            <op>
+              <value type="oblivion.geo.shape.GeoShape"/>
+            </op>
+          </expr>
+        </expr>
+      </projection>
+    </oblivion.db.lex.LexicalProjection>
+  </object>
+  <object id="value52" type="oblivion.db.op.ExpressionProjection">
+    <projection>
+      <expr kind="function">
+        <op>
+          <name>oblivion.view.plane2D.glyph.Functions$CreateGeoShape</name>
+        </op>
+        <expr kind="value">
+          <op>
+            <value type="java.awt.Color">
+              <color>#00000000</color>
+            </value>
+          </op>
+        </expr>
+        <expr kind="value">
+          <op>
+            <value type="java.awt.Color">
+              <color>#00000083</color>
+            </value>
+          </op>
+        </expr>
+        <expr kind="value">
+          <op>
+            <value type="oblivion.geo.shape.GeoShape"/>
+          </op>
+        </expr>
+      </expr>
+    </projection>
+  </object>
+  <object id="Projection4" type="oblivion.db.lex.LexicalProjection">
+    <oblivion.db.lex.LexicalProjection>
+      <name>Projection.Zones1</name>
+      <loschema>
+        <name>Glyph.Plane2D</name>
+      </loschema>
+      <lischema ref="Schema3"/>
+      <projection>
+        <expr kind="function">
+          <op>
+            <name>oblivion.view.plane2D.glyph.Functions$CreateGeoShape</name>
+          </op>
+          <expr kind="value">
+            <op>
+              <value type="java.awt.Color">
+                <color>#00000000</color>
+              </value>
+            </op>
+          </expr>
+          <expr kind="value">
+            <op>
+              <value type="java.awt.Color">
+                <color>#00000083</color>
+              </value>
+            </op>
+          </expr>
+          <expr kind="value">
+            <op>
+              <value type="oblivion.geo.shape.GeoShape"/>
+            </op>
+          </expr>
+        </expr>
+      </projection>
+    </oblivion.db.lex.LexicalProjection>
+  </object>
+  <object id="value53" type="oblivion.db.lex.LexicalProjection">
+    <oblivion.db.lex.LexicalProjection>
+      <name>Projection.Zones1</name>
+      <loschema>
+        <name>Glyph.Plane2D</name>
+      </loschema>
+      <lischema ref="Schema3"/>
+      <projection>
+        <expr kind="function">
+          <op>
+            <name>oblivion.view.plane2D.glyph.Functions$CreateGeoShape</name>
+          </op>
+          <expr kind="value">
+            <op>
+              <value type="java.awt.Color">
+                <color>#00000000</color>
+              </value>
+            </op>
+          </expr>
+          <expr kind="value">
+            <op>
+              <value type="java.awt.Color">
+                <color>#00000083</color>
+              </value>
+            </op>
+          </expr>
+          <expr kind="value">
+            <op>
+              <value type="oblivion.geo.shape.GeoShape"/>
+            </op>
+          </expr>
+        </expr>
+      </projection>
+    </oblivion.db.lex.LexicalProjection>
+  </object>
+  <object id="variable51" type="oblivion.lp.Variable">
+    <variable>
+      <prototype ref="prototype21"/>
+      <name>Projection.Zones</name>
+      <annotation>
+        <description/>
+      </annotation>
+      <label>Projection.Zones</label>
+      <value type="oblivion.db.lex.LexicalProjection">
+        <oblivion.db.lex.LexicalProjection>
+          <name>Projection.Zones1</name>
+          <loschema>
+            <name>Glyph.Plane2D</name>
+          </loschema>
+          <lischema ref="Schema3"/>
+          <projection>
+            <expr kind="function">
+              <op>
+                <name>oblivion.view.plane2D.glyph.Functions$CreateGeoShape</name>
+              </op>
+              <expr kind="value">
+                <op>
+                  <value type="java.awt.Color">
+                    <color>#00000000</color>
+                  </value>
+                </op>
+              </expr>
+              <expr kind="value">
+                <op>
+                  <value type="java.awt.Color">
+                    <color>#00000083</color>
+                  </value>
+                </op>
+              </expr>
+              <expr kind="value">
+                <op>
+                  <value type="oblivion.geo.shape.GeoShape"/>
+                </op>
+              </expr>
+            </expr>
+          </projection>
+        </oblivion.db.lex.LexicalProjection>
+      </value>
+    </variable>
+  </object>
+  <object id="value54" type="oblivion.db.op.ExpressionProjection">
+    <projection>
+      <expr kind="attribute">
+        <schema ref="value26"/>
+        <op>
+          <index>6</index>
+        </op>
+      </expr>
+    </projection>
+  </object>
+  <object id="Projection5" type="oblivion.db.lex.LexicalProjection">
+    <oblivion.db.lex.LexicalProjection>
+      <name>Projection.ListOfStates</name>
+      <loschema ref="Schema4"/>
+      <lischema ref="Schema1"/>
+      <projection ref="value54"/>
+    </oblivion.db.lex.LexicalProjection>
+  </object>
+  <object id="variable52" type="oblivion.lp.Variable">
+    <variable>
+      <prototype ref="prototype21"/>
+      <name>Projection.ListOfStates</name>
+      <label>Projection.ListOfStates</label>
+      <value type="oblivion.db.lex.LexicalProjection">
+        <oblivion.db.lex.LexicalProjection ref="Projection5"/>
+      </value>
+    </variable>
+  </object>
+  <object id="value55" type="oblivion.db.op.ExpressionProjection">
+    <projection>
+      <expr kind="function">
+        <op>
+          <name>oblivion.db.op.functions.ClassFunctions$Name</name>
+        </op>
+        <expr kind="value">
+          <op>
+            <value type="java.lang.Class">
+              <type>java.lang.Object</type>
+            </value>
+          </op>
+        </expr>
+      </expr>
+    </projection>
+  </object>
+  <object id="Projection6" type="oblivion.db.lex.LexicalProjection">
+    <oblivion.db.lex.LexicalProjection>
+      <name>Projection.ListOfZones</name>
+      <loschema ref="Schema6"/>
+      <lischema ref="Schema3"/>
+      <projection ref="value55"/>
+    </oblivion.db.lex.LexicalProjection>
+  </object>
+  <object id="value56" type="oblivion.db.op.ExpressionProjection">
+    <projection>
+      <expr kind="attribute">
+        <schema ref="value27"/>
+        <op>
+          <index>4</index>
+        </op>
+      </expr>
+    </projection>
+  </object>
+  <object id="Projection7" type="oblivion.db.lex.LexicalProjection">
+    <oblivion.db.lex.LexicalProjection>
+      <name>Projection.CountiesList</name>
+      <loschema ref="Schema7"/>
+      <lischema ref="Schema2"/>
+      <projection ref="value56"/>
+    </oblivion.db.lex.LexicalProjection>
+  </object>
+  <object id="variable53" type="oblivion.lp.Variable">
+    <variable>
+      <prototype ref="prototype21"/>
+      <name>Projection.Counties0</name>
+      <annotation>
+        <description/>
+      </annotation>
+      <label>Projection.Counties0</label>
+      <value type="oblivion.db.lex.LexicalProjection">
+        <oblivion.db.lex.LexicalProjection ref="Projection7"/>
+      </value>
+    </variable>
+  </object>
+  <object id="variable54" type="oblivion.lp.Variable">
+    <variable>
+      <prototype ref="prototype21"/>
+      <name>Projection.CountiesList</name>
+      <label>Projection.CountiesList</label>
+      <value type="oblivion.db.lex.LexicalProjection">
+        <oblivion.db.lex.LexicalProjection ref="Projection7"/>
+      </value>
+    </variable>
+  </object>
+  <object id="value57" type="oblivion.db.op.ExpressionProjection">
+    <projection>
+      <expr kind="function">
+        <schema ref="value27"/>
+        <op>
+          <name>oblivion.db.op.functions.StringFunctions$Cond</name>
+        </op>
+        <expr kind="function">
+          <op>
+            <name>oblivion.db.op.functions.SelectionFunctions$IsSelected2</name>
+          </op>
+          <expr kind="variable">
+            <op>
+              <variable ref="variable13"/>
+            </op>
+          </expr>
+          <expr kind="value">
+            <op>
+              <value type="int">
+                <int>0</int>
+              </value>
+            </op>
+          </expr>
+        </expr>
+        <expr kind="attribute">
+          <op>
+            <index>4</index>
+          </op>
+        </expr>
+        <expr kind="value">
+          <op>
+            <value type="java.lang.String">
+              <string ref="value16"/>
+            </value>
+          </op>
+        </expr>
+      </expr>
+    </projection>
+  </object>
+  <object id="Projection8" type="oblivion.db.lex.LexicalProjection">
+    <oblivion.db.lex.LexicalProjection>
+      <name>Projection.CountiesList0</name>
+      <loschema ref="Schema7"/>
+      <lischema ref="Schema2"/>
+      <projection ref="value57"/>
+    </oblivion.db.lex.LexicalProjection>
+  </object>
+  <object id="variable55" type="oblivion.lp.Variable">
+    <variable>
+      <prototype ref="prototype21"/>
+      <name>Projection.CountiesList0</name>
+      <annotation>
+        <description/>
+      </annotation>
+      <label>Projection.CountiesList0</label>
+      <value type="oblivion.db.lex.LexicalProjection">
+        <oblivion.db.lex.LexicalProjection ref="Projection8"/>
+      </value>
+    </variable>
+  </object>
+  <object id="value58" type="oblivion.db.op.ExpressionProjection">
+    <projection>
+      <expr kind="function">
+        <schema ref="value33"/>
+        <op>
+          <name>oblivion.view.plane2D.glyph.Functions$CreateGeoShape</name>
+        </op>
+        <expr kind="value">
+          <op>
+            <value type="java.awt.Color">
+              <color>#00000000</color>
+            </value>
+          </op>
+        </expr>
+        <expr kind="value">
+          <op>
+            <value type="java.awt.Color">
+              <color>#00000034</color>
+            </value>
+          </op>
+        </expr>
+        <expr kind="attribute">
+          <op>
+            <index>0</index>
+          </op>
+        </expr>
+      </expr>
+    </projection>
+  </object>
+  <object id="Projection9" type="oblivion.db.lex.LexicalProjection">
+    <oblivion.db.lex.LexicalProjection>
+      <name>Projection.Zone</name>
+      <loschema>
+        <name>Glyph.Plane2D</name>
+      </loschema>
+      <lischema ref="Schema8"/>
+      <projection ref="value58"/>
+    </oblivion.db.lex.LexicalProjection>
+  </object>
+  <object id="value59" type="oblivion.db.op.ExpressionProjection">
+    <projection>
+      <expr kind="function">
+        <schema ref="value33"/>
+        <op>
+          <name>oblivion.db.op.functions.StringFunctions$Cond</name>
+        </op>
+        <expr kind="function">
+          <op>
+            <name>oblivion.db.op.functions.SelectionFunctions$IsSelected2</name>
+          </op>
+          <expr kind="variable">
+            <op>
+              <variable ref="variable13"/>
+            </op>
+          </expr>
+          <expr kind="value">
+            <op>
+              <value type="int">
+                <int>1</int>
+              </value>
+            </op>
+          </expr>
+        </expr>
+        <expr kind="attribute">
+          <op>
+            <index>6</index>
+          </op>
+        </expr>
+        <expr kind="value">
+          <op>
+            <value type="java.lang.String">
+              <string ref="value16"/>
+            </value>
+          </op>
+        </expr>
+      </expr>
+    </projection>
+  </object>
+  <object id="Projection10" type="oblivion.db.lex.LexicalProjection">
+    <oblivion.db.lex.LexicalProjection>
+      <name>Projection.ZoneList</name>
+      <loschema ref="Schema6"/>
+      <lischema ref="Schema8"/>
+      <projection ref="value59"/>
+    </oblivion.db.lex.LexicalProjection>
+  </object>
+  <object id="variable56" type="oblivion.lp.Variable">
+    <variable>
+      <prototype ref="prototype21"/>
+      <name>Projection.ZoneList</name>
+      <label>Projection.ZoneList</label>
+      <value type="oblivion.db.lex.LexicalProjection">
+        <oblivion.db.lex.LexicalProjection ref="Projection10"/>
+      </value>
+    </variable>
+  </object>
+  <object id="value60" type="oblivion.db.op.ExpressionSort">
+    <sort>
+      <expr kind="function">
+        <schema ref="value26"/>
+        <op>
+          <name>oblivion.db.op.functions.StringFunctions$Increasing</name>
+        </op>
+        <expr kind="attribute">
+          <op>
+            <index>6</index>
+          </op>
+        </expr>
+      </expr>
+    </sort>
+  </object>
+  <object id="Sort0" type="oblivion.db.lex.LexicalSort">
+    <oblivion.db.lex.LexicalSort>
+      <name>Sort.States</name>
+      <lschema ref="Schema1"/>
+      <sort ref="value60"/>
+    </oblivion.db.lex.LexicalSort>
+  </object>
+  <object id="prototype22" type="oblivion.lp.Prototype">
+    <prototype>
+      <type>oblivion.db.lex.LexicalSort</type>
+      <name ref="value16"/>
+    </prototype>
+  </object>
+  <object id="variable57" type="oblivion.lp.Variable">
+    <variable>
+      <prototype ref="prototype22"/>
+      <name>Sort.States</name>
+      <label>Sort.States</label>
+      <value type="oblivion.db.lex.LexicalSort">
+        <oblivion.db.lex.LexicalSort ref="Sort0"/>
+      </value>
+    </variable>
+  </object>
+  <object id="value61" type="oblivion.db.op.ExpressionSort">
+    <sort>
+      <expr kind="function">
+        <schema ref="value27"/>
+        <op>
+          <name>oblivion.db.op.functions.StringFunctions$Increasing</name>
+        </op>
+        <expr kind="attribute">
+          <op>
+            <index>4</index>
+          </op>
+        </expr>
+      </expr>
+    </sort>
+  </object>
+  <object id="Sort1" type="oblivion.db.lex.LexicalSort">
+    <oblivion.db.lex.LexicalSort>
+      <name>Sort.Counties</name>
+      <lschema ref="Schema2"/>
+      <sort ref="value61"/>
+    </oblivion.db.lex.LexicalSort>
+  </object>
+  <object id="variable58" type="oblivion.lp.Variable">
+    <variable>
+      <prototype ref="prototype22"/>
+      <name>Sort.Counties</name>
+      <label>Sort.Counties</label>
+      <value type="oblivion.db.lex.LexicalSort">
+        <oblivion.db.lex.LexicalSort ref="Sort1"/>
+      </value>
+    </variable>
+  </object>
+  <object id="value62" type="oblivion.db.op.ExpressionInfo">
+    <info>
+      <expr kind="function">
+        <schema ref="value25"/>
+        <op>
+          <name>oblivion.db.op.functions.DataFunctions$Add</name>
+        </op>
+        <expr kind="function">
+          <op>
+            <name>oblivion.db.op.functions.DataFunctions$FromFlatSource</name>
+          </op>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.SourceFunctions$FromFile</name>
+            </op>
+            <expr kind="function">
+              <op>
+                <name>oblivion.db.op.functions.FileFunctions$FilePath</name>
+              </op>
+              <expr kind="function">
+                <op>
+                  <name>oblivion.db.op.functions.StringFunctions$Add</name>
+                </op>
+                <expr kind="function">
+                  <op>
+                    <name>oblivion.db.op.functions.StringFunctions$Invoke</name>
+                  </op>
+                  <expr kind="variable">
+                    <op>
+                      <variable ref="variable39"/>
+                    </op>
+                  </expr>
+                </expr>
+                <expr kind="value">
+                  <op>
+                    <value type="java.lang.String">
+                      <string>data/sets/Stormdata_1996.csv</string>
+                    </value>
+                  </op>
+                </expr>
+              </expr>
+            </expr>
+          </expr>
+          <expr kind="value">
+            <op>
+              <value type="oblivion.db.RecordFormat">
+                <recordformat>CSV</recordformat>
+              </value>
+            </op>
+          </expr>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.SchemaFunctions$FromLexical</name>
+            </op>
+            <expr kind="variable">
+              <op>
+                <variable ref="variable22"/>
+              </op>
+            </expr>
+          </expr>
+        </expr>
+        <expr kind="function">
+          <op>
+            <name>oblivion.db.op.functions.DataFunctions$FromFlatSource</name>
+          </op>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.SourceFunctions$FromFile</name>
+            </op>
+            <expr kind="function">
+              <op>
+                <name>oblivion.db.op.functions.FileFunctions$FilePath</name>
+              </op>
+              <expr kind="function">
+                <op>
+                  <name>oblivion.db.op.functions.StringFunctions$Add</name>
+                </op>
+                <expr kind="function">
+                  <op>
+                    <name>oblivion.db.op.functions.StringFunctions$Invoke</name>
+                  </op>
+                  <expr kind="variable">
+                    <op>
+                      <variable ref="variable39"/>
+                    </op>
+                  </expr>
+                </expr>
+                <expr kind="value">
+                  <op>
+                    <value type="java.lang.String">
+                      <string>data/sets/Stormdata_1997.csv</string>
+                    </value>
+                  </op>
+                </expr>
+              </expr>
+            </expr>
+          </expr>
+          <expr kind="value">
+            <op>
+              <value type="oblivion.db.RecordFormat">
+                <recordformat>CSV</recordformat>
+              </value>
+            </op>
+          </expr>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.SchemaFunctions$FromLexical</name>
+            </op>
+            <expr kind="variable">
+              <op>
+                <variable ref="variable22"/>
+              </op>
+            </expr>
+          </expr>
+        </expr>
+      </expr>
+    </info>
+  </object>
+  <object id="Info0" type="oblivion.db.lex.LexicalInfo">
+    <oblivion.db.lex.LexicalInfo>
+      <name>Info.Storm</name>
+      <lschema ref="Schema0"/>
+      <info ref="value62"/>
+    </oblivion.db.lex.LexicalInfo>
+  </object>
+  <object id="prototype23" type="oblivion.lp.Prototype">
+    <prototype>
+      <type>oblivion.db.lex.LexicalInfo</type>
+      <name ref="value16"/>
+    </prototype>
+  </object>
+  <object id="variable59" type="oblivion.lp.Variable">
+    <variable>
+      <prototype ref="prototype23"/>
+      <name>Info.Storm</name>
+      <annotation>
+        <description/>
+      </annotation>
+      <label>Info.Storm</label>
+      <value type="oblivion.db.lex.LexicalInfo">
+        <oblivion.db.lex.LexicalInfo ref="Info0"/>
+      </value>
+    </variable>
+  </object>
+  <object id="variable60" type="oblivion.lp.Variable">
+    <variable>
+      <prototype ref="prototype23"/>
+      <name>Info.Storm0</name>
+      <label>Info.Storm</label>
+      <value type="oblivion.db.lex.LexicalInfo">
+        <oblivion.db.lex.LexicalInfo ref="Info0"/>
+      </value>
+    </variable>
+  </object>
+  <object id="value63" type="oblivion.db.op.ExpressionInfo">
+    <info>
+      <expr kind="function">
+        <schema ref="value26"/>
+        <op>
+          <name>oblivion.db.op.functions.DataFunctions$Merge</name>
+        </op>
+        <expr kind="function">
+          <op>
+            <name>oblivion.db.op.functions.DataFunctions$FromShapefileSource</name>
+          </op>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.SourceFunctions$FromFile</name>
+            </op>
+            <expr kind="function">
+              <op>
+                <name>oblivion.db.op.functions.FileFunctions$FilePath</name>
+              </op>
+              <expr kind="function">
+                <op>
+                  <name>oblivion.db.op.functions.StringFunctions$Add</name>
+                </op>
+                <expr kind="function">
+                  <op>
+                    <name>oblivion.db.op.functions.StringFunctions$Invoke</name>
+                  </op>
+                  <expr kind="variable">
+                    <op>
+                      <variable ref="variable39"/>
+                    </op>
+                  </expr>
+                </expr>
+                <expr kind="value">
+                  <op>
+                    <value type="java.lang.String">
+                      <string>data/geo/states.shp</string>
+                    </value>
+                  </op>
+                </expr>
+              </expr>
+            </expr>
+          </expr>
+        </expr>
+        <expr kind="function">
+          <op>
+            <name>oblivion.db.op.functions.DataFunctions$FromDbfSource</name>
+          </op>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.SourceFunctions$FromFile</name>
+            </op>
+            <expr kind="function">
+              <op>
+                <name>oblivion.db.op.functions.FileFunctions$FilePath</name>
+              </op>
+              <expr kind="function">
+                <op>
+                  <name>oblivion.db.op.functions.StringFunctions$Add</name>
+                </op>
+                <expr kind="function">
+                  <op>
+                    <name>oblivion.db.op.functions.StringFunctions$Invoke</name>
+                  </op>
+                  <expr kind="variable">
+                    <op>
+                      <variable ref="variable39"/>
+                    </op>
+                  </expr>
+                </expr>
+                <expr kind="value">
+                  <op>
+                    <value type="java.lang.String">
+                      <string>data/geo/states.dbf</string>
+                    </value>
+                  </op>
+                </expr>
+              </expr>
+            </expr>
+          </expr>
+        </expr>
+      </expr>
+    </info>
+  </object>
+  <object id="Info1" type="oblivion.db.lex.LexicalInfo">
+    <oblivion.db.lex.LexicalInfo>
+      <name>Info.States</name>
+      <lschema ref="Schema1"/>
+      <info ref="value63"/>
+    </oblivion.db.lex.LexicalInfo>
+  </object>
+  <object id="variable61" type="oblivion.lp.Variable">
+    <variable>
+      <prototype ref="prototype23"/>
+      <name>Info.States</name>
+      <label>Info.States</label>
+      <value type="oblivion.db.lex.LexicalInfo">
+        <oblivion.db.lex.LexicalInfo ref="Info1"/>
+      </value>
+    </variable>
+  </object>
+  <object id="value64" type="oblivion.db.op.ExpressionInfo">
+    <info>
+      <expr kind="function">
+        <schema ref="value27"/>
+        <op>
+          <name>oblivion.db.op.functions.DataFunctions$Merge</name>
+        </op>
+        <expr kind="function">
+          <op>
+            <name>oblivion.db.op.functions.DataFunctions$FromShapefileSource</name>
+          </op>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.SourceFunctions$FromFile</name>
+            </op>
+            <expr kind="function">
+              <op>
+                <name>oblivion.db.op.functions.FileFunctions$FilePath</name>
+              </op>
+              <expr kind="function">
+                <op>
+                  <name>oblivion.db.op.functions.StringFunctions$Add</name>
+                </op>
+                <expr kind="function">
+                  <op>
+                    <name>oblivion.db.op.functions.StringFunctions$Invoke</name>
+                  </op>
+                  <expr kind="variable">
+                    <op>
+                      <variable ref="variable39"/>
+                    </op>
+                  </expr>
+                </expr>
+                <expr kind="value">
+                  <op>
+                    <value type="java.lang.String">
+                      <string>data/geo/counties.shp</string>
+                    </value>
+                  </op>
+                </expr>
+              </expr>
+            </expr>
+          </expr>
+        </expr>
+        <expr kind="function">
+          <op>
+            <name>oblivion.db.op.functions.DataFunctions$FromDbfSource</name>
+          </op>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.SourceFunctions$FromFile</name>
+            </op>
+            <expr kind="function">
+              <op>
+                <name>oblivion.db.op.functions.FileFunctions$FilePath</name>
+              </op>
+              <expr kind="function">
+                <op>
+                  <name>oblivion.db.op.functions.StringFunctions$Add</name>
+                </op>
+                <expr kind="function">
+                  <op>
+                    <name>oblivion.db.op.functions.StringFunctions$Invoke</name>
+                  </op>
+                  <expr kind="variable">
+                    <op>
+                      <variable ref="variable39"/>
+                    </op>
+                  </expr>
+                </expr>
+                <expr kind="value">
+                  <op>
+                    <value type="java.lang.String">
+                      <string>data/geo/counties.dbf</string>
+                    </value>
+                  </op>
+                </expr>
+              </expr>
+            </expr>
+          </expr>
+        </expr>
+      </expr>
+    </info>
+  </object>
+  <object id="Info2" type="oblivion.db.lex.LexicalInfo">
+    <oblivion.db.lex.LexicalInfo>
+      <name>Info.Counties</name>
+      <lschema ref="Schema2"/>
+      <info ref="value64"/>
+    </oblivion.db.lex.LexicalInfo>
+  </object>
+  <object id="variable62" type="oblivion.lp.Variable">
+    <variable>
+      <prototype ref="prototype23"/>
+      <name>Info.Counties</name>
+      <annotation>
+        <description/>
+      </annotation>
+      <label>Info.Counties</label>
+      <value type="oblivion.db.lex.LexicalInfo">
+        <oblivion.db.lex.LexicalInfo ref="Info2"/>
+      </value>
+    </variable>
+  </object>
+  <object id="value65" type="oblivion.db.op.ExpressionInfo">
+    <info>
+      <expr kind="function">
+        <op>
+          <name>oblivion.db.op.functions.DataFunctions$Merge</name>
+        </op>
+        <expr kind="function">
+          <op>
+            <name>oblivion.db.op.functions.DataFunctions$FromShapefileSource</name>
+          </op>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.SourceFunctions$FromFile</name>
+            </op>
+            <expr kind="function">
+              <op>
+                <name>oblivion.db.op.functions.FileFunctions$FilePath</name>
+              </op>
+              <expr kind="function">
+                <op>
+                  <name>oblivion.db.op.functions.StringFunctions$Add</name>
+                </op>
+                <expr kind="function">
+                  <op>
+                    <name>oblivion.db.op.functions.StringFunctions$Invoke</name>
+                  </op>
+                  <expr kind="variable">
+                    <op>
+                      <variable ref="variable39"/>
+                    </op>
+                  </expr>
+                </expr>
+                <expr kind="value">
+                  <op>
+                    <value type="java.lang.String">
+                      <string>data/geo/zones.shp</string>
+                    </value>
+                  </op>
+                </expr>
+              </expr>
+            </expr>
+          </expr>
+        </expr>
+        <expr kind="function">
+          <op>
+            <name>oblivion.db.op.functions.DataFunctions$FromDbfSource</name>
+          </op>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.SourceFunctions$FromFile</name>
+            </op>
+            <expr kind="function">
+              <op>
+                <name>oblivion.db.op.functions.FileFunctions$FilePath</name>
+              </op>
+              <expr kind="function">
+                <op>
+                  <name>oblivion.db.op.functions.StringFunctions$Add</name>
+                </op>
+                <expr kind="function">
+                  <op>
+                    <name>oblivion.db.op.functions.StringFunctions$Invoke</name>
+                  </op>
+                  <expr kind="variable">
+                    <op>
+                      <variable ref="variable39"/>
+                    </op>
+                  </expr>
+                </expr>
+                <expr kind="value">
+                  <op>
+                    <value type="java.lang.String">
+                      <string>data/geo/zones.dbf</string>
+                    </value>
+                  </op>
+                </expr>
+              </expr>
+            </expr>
+          </expr>
+        </expr>
+      </expr>
+    </info>
+  </object>
+  <object id="Info3" type="oblivion.db.lex.LexicalInfo">
+    <oblivion.db.lex.LexicalInfo>
+      <name>Info.Zones</name>
+      <lschema ref="Schema3"/>
+      <info ref="value65"/>
+    </oblivion.db.lex.LexicalInfo>
+  </object>
+  <object id="variable63" type="oblivion.lp.Variable">
+    <variable>
+      <prototype ref="prototype23"/>
+      <name>Info.Zones</name>
+      <label>Info.Zones</label>
+      <value type="oblivion.db.lex.LexicalInfo">
+        <oblivion.db.lex.LexicalInfo ref="Info3"/>
+      </value>
+    </variable>
+  </object>
+  <object id="variable64" type="oblivion.lp.Variable">
+    <variable>
+      <prototype ref="prototype23"/>
+      <name>Info.Zones0</name>
+      <label>Info.Zones</label>
+      <value type="oblivion.db.lex.LexicalInfo">
+        <oblivion.db.lex.LexicalInfo ref="Info3"/>
+      </value>
+    </variable>
+  </object>
+  <object id="value66" type="oblivion.db.op.ExpressionInfo">
+    <info>
+      <expr kind="function">
+        <schema>
+          <attribute>
+            <type>java.lang.Object</type>
+            <name>Key</name>
+          </attribute>
+          <attribute>
+            <type>oblivion.db.Data</type>
+            <name>Set</name>
+          </attribute>
+        </schema>
+        <op>
+          <name>oblivion.db.op.functions.DataFunctions$Groups</name>
+        </op>
+        <expr kind="function">
+          <op>
+            <name>oblivion.db.op.functions.DataFunctions$FromLexicalInfo</name>
+          </op>
+          <expr kind="variable">
+            <op>
+              <variable ref="variable61"/>
+            </op>
+          </expr>
+        </expr>
+        <expr kind="function">
+          <op>
+            <name>oblivion.db.op.functions.ExpressionFunctions$FromLexical</name>
+          </op>
+          <expr kind="variable">
+            <op>
+              <variable ref="variable40"/>
+            </op>
+          </expr>
+        </expr>
+      </expr>
+    </info>
+  </object>
+  <object id="Info4" type="oblivion.db.lex.LexicalInfo">
+    <oblivion.db.lex.LexicalInfo>
+      <name>States.Group.State</name>
+      <lschema>
+        <name>Group</name>
+      </lschema>
+      <info ref="value66"/>
+    </oblivion.db.lex.LexicalInfo>
+  </object>
+  <object id="variable65" type="oblivion.lp.Variable">
+    <variable>
+      <prototype ref="prototype23"/>
+      <name>States.Group.State</name>
+      <label>States.Group.State</label>
+      <value type="oblivion.db.lex.LexicalInfo">
+        <oblivion.db.lex.LexicalInfo ref="Info4"/>
+      </value>
+    </variable>
+  </object>
+  <object id="value67" type="oblivion.db.op.ExpressionInfo">
+    <info>
+      <expr kind="function">
+        <schema ref="value30"/>
+        <op>
+          <name>oblivion.db.op.functions.DataFunctions$FromFlatSource</name>
+        </op>
+        <expr kind="function">
+          <op>
+            <name>oblivion.db.op.functions.SourceFunctions$FromFile</name>
+          </op>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.FileFunctions$FilePath</name>
+            </op>
+            <expr kind="function">
+              <op>
+                <name>oblivion.db.op.functions.StringFunctions$Add</name>
+              </op>
+              <expr kind="function">
+                <op>
+                  <name>oblivion.db.op.functions.StringFunctions$Invoke</name>
+                </op>
+                <expr kind="variable">
+                  <op>
+                    <variable ref="variable39"/>
+                  </op>
+                </expr>
+              </expr>
+              <expr kind="value">
+                <op>
+                  <value type="java.lang.String">
+                    <string>data/sets/CountyZoneList.csv</string>
+                  </value>
+                </op>
+              </expr>
+            </expr>
+          </expr>
+        </expr>
+        <expr kind="value">
+          <op>
+            <value type="oblivion.db.RecordFormat">
+              <recordformat>CSV</recordformat>
+            </value>
+          </op>
+        </expr>
+        <expr kind="function">
+          <op>
+            <name>oblivion.db.op.functions.SchemaFunctions$FromLexical</name>
+          </op>
+          <expr kind="variable">
+            <op>
+              <variable ref="variable27"/>
+            </op>
+          </expr>
+        </expr>
+      </expr>
+    </info>
+  </object>
+  <object id="Info5" type="oblivion.db.lex.LexicalInfo">
+    <oblivion.db.lex.LexicalInfo>
+      <name>Info.CountyZoneList</name>
+      <lschema ref="Schema5"/>
+      <info ref="value67"/>
+    </oblivion.db.lex.LexicalInfo>
+  </object>
+  <object id="variable66" type="oblivion.lp.Variable">
+    <variable>
+      <prototype ref="prototype23"/>
+      <name>Info.CountyZoneList</name>
+      <annotation>
+        <description/>
+      </annotation>
+      <label>Info.CountyZoneList</label>
+      <value type="oblivion.db.lex.LexicalInfo">
+        <oblivion.db.lex.LexicalInfo ref="Info5"/>
+      </value>
+    </variable>
+  </object>
+  <object id="value68" type="oblivion.db.op.ExpressionInfo">
+    <info>
+      <expr kind="function">
+        <schema ref="value33"/>
+        <op>
+          <name>oblivion.db.op.functions.DataFunctions$Merge</name>
+        </op>
+        <expr kind="function">
+          <op>
+            <name>oblivion.db.op.functions.DataFunctions$FromShapefileSource</name>
+          </op>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.SourceFunctions$FromFile</name>
+            </op>
+            <expr kind="function">
+              <op>
+                <name>oblivion.db.op.functions.FileFunctions$FilePath</name>
+              </op>
+              <expr kind="function">
+                <op>
+                  <name>oblivion.db.op.functions.StringFunctions$Add</name>
+                </op>
+                <expr kind="function">
+                  <op>
+                    <name>oblivion.db.op.functions.StringFunctions$Invoke</name>
+                  </op>
+                  <expr kind="variable">
+                    <op>
+                      <variable ref="variable39"/>
+                    </op>
+                  </expr>
+                </expr>
+                <expr kind="value">
+                  <op>
+                    <value type="java.lang.String">
+                      <string>data/geo/zones.shp</string>
+                    </value>
+                  </op>
+                </expr>
+              </expr>
+            </expr>
+          </expr>
+        </expr>
+        <expr kind="function">
+          <op>
+            <name>oblivion.db.op.functions.DataFunctions$FromDbfSource</name>
+          </op>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.SourceFunctions$FromFile</name>
+            </op>
+            <expr kind="function">
+              <op>
+                <name>oblivion.db.op.functions.FileFunctions$FilePath</name>
+              </op>
+              <expr kind="function">
+                <op>
+                  <name>oblivion.db.op.functions.StringFunctions$Add</name>
+                </op>
+                <expr kind="function">
+                  <op>
+                    <name>oblivion.db.op.functions.StringFunctions$Invoke</name>
+                  </op>
+                  <expr kind="variable">
+                    <op>
+                      <variable ref="variable39"/>
+                    </op>
+                  </expr>
+                </expr>
+                <expr kind="value">
+                  <op>
+                    <value type="java.lang.String">
+                      <string>data/geo/zones.dbf</string>
+                    </value>
+                  </op>
+                </expr>
+              </expr>
+            </expr>
+          </expr>
+        </expr>
+      </expr>
+    </info>
+  </object>
+  <object id="Info6" type="oblivion.db.lex.LexicalInfo">
+    <oblivion.db.lex.LexicalInfo>
+      <name>Info.Zone</name>
+      <lschema ref="Schema8"/>
+      <info ref="value68"/>
+    </oblivion.db.lex.LexicalInfo>
+  </object>
+  <object id="variable67" type="oblivion.lp.Variable">
+    <variable>
+      <prototype ref="prototype23"/>
+      <name>Info.Zone</name>
+      <label>Info.Zone</label>
+      <value type="oblivion.db.lex.LexicalInfo">
+        <oblivion.db.lex.LexicalInfo ref="Info6"/>
+      </value>
+    </variable>
+  </object>
+  <object id="value69" type="oblivion.db.op.ExpressionInfo">
+    <info>
+      <expr kind="function">
+        <schema ref="value34"/>
+        <op>
+          <name>oblivion.db.op.functions.DataFunctions$FromFlatSource</name>
+        </op>
+        <expr kind="function">
+          <op>
+            <name>oblivion.db.op.functions.SourceFunctions$FromFile</name>
+          </op>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.FileFunctions$FilePath</name>
+            </op>
+            <expr kind="function">
+              <op>
+                <name>oblivion.db.op.functions.StringFunctions$Add</name>
+              </op>
+              <expr kind="function">
+                <op>
+                  <name>oblivion.db.op.functions.StringFunctions$Invoke</name>
+                </op>
+                <expr kind="variable">
+                  <op>
+                    <variable ref="variable39"/>
+                  </op>
+                </expr>
+              </expr>
+              <expr kind="value">
+                <op>
+                  <value type="java.lang.String">
+                    <string>data/sets/countytypes.csv</string>
+                  </value>
+                </op>
+              </expr>
+            </expr>
+          </expr>
+        </expr>
+        <expr kind="value">
+          <op>
+            <value type="oblivion.db.RecordFormat">
+              <recordformat>CSV</recordformat>
+            </value>
+          </op>
+        </expr>
+        <expr kind="function">
+          <op>
+            <name>oblivion.db.op.functions.SchemaFunctions$FromLexical</name>
+          </op>
+          <expr kind="variable">
+            <op>
+              <variable ref="variable32"/>
+            </op>
+          </expr>
+        </expr>
+      </expr>
+    </info>
+  </object>
+  <object id="Info7" type="oblivion.db.lex.LexicalInfo">
+    <oblivion.db.lex.LexicalInfo>
+      <name>Info.CountyEventType</name>
+      <lschema ref="Schema9"/>
+      <info ref="value69"/>
+    </oblivion.db.lex.LexicalInfo>
+  </object>
+  <object id="variable68" type="oblivion.lp.Variable">
+    <variable>
+      <prototype ref="prototype23"/>
+      <name>Info.CountyEventType</name>
+      <label>Info.CountyEventType</label>
+      <value type="oblivion.db.lex.LexicalInfo">
+        <oblivion.db.lex.LexicalInfo ref="Info7"/>
+      </value>
+    </variable>
+  </object>
+  <object id="value70" type="oblivion.db.op.ExpressionInfo">
+    <info>
+      <expr kind="function">
+        <schema ref="value34"/>
+        <op>
+          <name>oblivion.db.op.functions.DataFunctions$FromFlatSource</name>
+        </op>
+        <expr kind="function">
+          <op>
+            <name>oblivion.db.op.functions.SourceFunctions$FromFile</name>
+          </op>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.FileFunctions$FilePath</name>
+            </op>
+            <expr kind="function">
+              <op>
+                <name>oblivion.db.op.functions.StringFunctions$Add</name>
+              </op>
+              <expr kind="function">
+                <op>
+                  <name>oblivion.db.op.functions.StringFunctions$Invoke</name>
+                </op>
+                <expr kind="variable">
+                  <op>
+                    <variable ref="variable39"/>
+                  </op>
+                </expr>
+              </expr>
+              <expr kind="value">
+                <op>
+                  <value type="java.lang.String">
+                    <string>data/sets/zonetypes.csv</string>
+                  </value>
+                </op>
+              </expr>
+            </expr>
+          </expr>
+        </expr>
+        <expr kind="value">
+          <op>
+            <value type="oblivion.db.RecordFormat">
+              <recordformat>CSV</recordformat>
+            </value>
+          </op>
+        </expr>
+        <expr kind="function">
+          <op>
+            <name>oblivion.db.op.functions.SchemaFunctions$FromLexical</name>
+          </op>
+          <expr kind="variable">
+            <op>
+              <variable ref="variable33"/>
+            </op>
+          </expr>
+        </expr>
+      </expr>
+    </info>
+  </object>
+  <object id="Info8" type="oblivion.db.lex.LexicalInfo">
+    <oblivion.db.lex.LexicalInfo>
+      <name>Info.ZoneEventType</name>
+      <lschema ref="Schema10"/>
+      <info ref="value70"/>
+    </oblivion.db.lex.LexicalInfo>
+  </object>
+  <object id="variable69" type="oblivion.lp.Variable">
+    <variable>
+      <prototype ref="prototype23"/>
+      <name>Info.ZoneEventType</name>
+      <label>Info.ZoneEventType</label>
+      <value type="oblivion.db.lex.LexicalInfo">
+        <oblivion.db.lex.LexicalInfo ref="Info8"/>
+      </value>
+    </variable>
+  </object>
+  <object id="value71" type="oblivion.db.op.Expression">
+    <expr kind="function">
+      <schema ref="value26"/>
+      <op>
+        <name>oblivion.db.op.functions.SelectionFunctions$IsSelected2</name>
+      </op>
+      <expr kind="variable">
+        <op>
+          <variable ref="variable9"/>
+        </op>
+      </expr>
+      <expr kind="index">
+        <op>
+          <type>int</type>
+        </op>
+        <expr kind="function">
+          <op>
+            <name>oblivion.db.op.functions.DataFunctions$FromLexicalInfo</name>
+          </op>
+          <expr kind="variable">
+            <op>
+              <variable ref="variable65"/>
+            </op>
+          </expr>
+        </expr>
+        <expr kind="function">
+          <op>
+            <name>oblivion.db.op.functions.ExpressionFunctions$FromLexical</name>
+          </op>
+          <expr kind="variable">
+            <op>
+              <variable ref="variable35"/>
+            </op>
+          </expr>
+        </expr>
+        <expr kind="function">
+          <op>
+            <name>oblivion.db.op.functions.ExpressionFunctions$FromLexical</name>
+          </op>
+          <expr kind="variable">
+            <op>
+              <variable ref="variable36"/>
+            </op>
+          </expr>
+        </expr>
+        <expr kind="function">
+          <op>
+            <name>oblivion.db.op.functions.ClassFunctions$ToObject</name>
+          </op>
+          <expr kind="function">
+            <op>
+              <name>oblivion.db.op.functions.ClassFunctions$Invoke</name>
+            </op>
+            <expr kind="variable">
+              <op>
+                <variable ref="variable40"/>
+              </op>
+            </expr>
+          </expr>
+        </expr>
+        <expr kind="value">
+          <op>
+            <value type="int">
+              <int>-1</int>
+            </value>
+          </op>
+        </expr>
+      </expr>
+    </expr>
+  </object>
+  <object id="Expression4" type="oblivion.db.lex.LexicalExpression">
+    <oblivion.db.lex.LexicalExpression>
+      <name>States.IsStateSelected</name>
+      <ltype>boolean</ltype>
+      <lschema ref="Schema1"/>
+      <expression ref="value71"/>
+    </oblivion.db.lex.LexicalExpression>
+  </object>
+  <object id="variable70" type="oblivion.lp.Variable">
+    <variable>
+      <prototype ref="prototype19"/>
+      <name>States.IsStateSelected</name>
+      <annotation>
+        <description/>
+      </annotation>
+      <label>States.IsStateSelected</label>
+      <value type="oblivion.db.lex.LexicalExpression">
+        <oblivion.db.lex.LexicalExpression ref="Expression4"/>
+      </value>
+    </variable>
+  </object>
+  <object id="control0" type="oblivion.view.map.view.MapView">
+    <Map>
+      <name>Map</name>
+      <annotation>
+        <description/>
+      </annotation>
+      <options>
+        <check group="Tracking" item="Show dimensions">false</check>
+        <check group="Tracking" item="Show lines">false</check>
+        <check group="Tracking" item="Show coordinates">false</check>
+      </options>
+    </Map>
+  </object>
+  <object id="control1" type="oblivion.view.cell.view.ListView">
+    <ListView>
+      <name>StatesList ViewFrame</name>
+      <annotation>
+        <description/>
+      </annotation>
+      <options>
+        <check group="Design" item="No Header">false</check>
+        <check group="Selection" item="Force">false</check>
+        <radio group="Layout" item="Vertical">true</radio>
+        <radio group="Selection Mode" item="Multiple">true</radio>
+      </options>
+      <position>
+        <x>0</x>
+        <y>0</y>
+      </position>
+    </ListView>
+  </object>
+  <object id="control2" type="oblivion.view.cell.view.TableView">
+    <TableView>
+      <name>Table View</name>
+      <annotation>
+        <description/>
+      </annotation>
+      <options>
+        <check group="Design" item="No Header">false</check>
+        <check group="Selection" item="Force">false</check>
+        <check group="Lines" item="Horizontal">true</check>
+        <check group="Lines" item="Vertical">true</check>
+        <radio group="Selection Mode" item="Multiple">true</radio>
+      </options>
+      <property tag="Info">
+        <variable ref="variable61"/>
+      </property>
+      <property tag="Filter">
+        <variable ref="variable43"/>
+      </property>
+      <position>
+        <x>0</x>
+        <y>0</y>
+      </position>
+      <colwidth>75</colwidth>
+      <colwidth>75</colwidth>
+      <colwidth>75</colwidth>
+      <colwidth>75</colwidth>
+      <colwidth>75</colwidth>
+      <colwidth>75</colwidth>
+      <colwidth>75</colwidth>
+    </TableView>
+  </object>
+  <object id="control3" type="oblivion.view.plane2D.view.GlyphPlaneView">
+    <GlyphPlaneView2D>
+      <name>MapView</name>
+      <annotation>
+        <description/>
+      </annotation>
+      <options>
+        <check group="Rendering" item="Greek Zooms">false</check>
+        <check group="Lines" item="Horizontal">false</check>
+        <check group="Lines" item="Vertical">false</check>
+        <check group="Tracking" item="Show dimensions">false</check>
+        <check group="Tracking" item="Show lines">false</check>
+        <check group="Tracking" item="Show coordinates">false</check>
+        <radio group="Layers" item="3">true</radio>
+      </options>
+      <property tag="Background">
+        <variable ref="variable6"/>
+      </property>
+      <property tag="XRange">
+        <variable ref="variable0"/>
+      </property>
+      <property tag="YRange">
+        <variable ref="variable1"/>
+      </property>
+      <property tag="Layer0.Info">
+        <variable ref="variable61"/>
+      </property>
+      <property tag="Layer0.Projection">
+        <variable ref="variable50"/>
+      </property>
+      <property tag="Layer0.Filter">
+        <variable ref="variable43"/>
+      </property>
+      <property tag="Layer1.Info">
+        <variable ref="variable62"/>
+      </property>
+      <property tag="Layer1.Projection">
+        <variable ref="variable48"/>
+      </property>
+      <property tag="Layer1.Filter">
+        <variable ref="variable44"/>
+      </property>
+    </GlyphPlaneView2D>
+  </object>
+  <object id="control4" type="oblivion.view.range.view.AxialRangeControl">
+    <AxialRangeControl>
+      <name>YearAxis</name>
+      <annotation>
+        <description/>
+      </annotation>
+      <options>
+        <check group="Look" item="Symmetric">false</check>
+        <check group="Show" item="Label">true</check>
+        <check group="Show" item="Ticks">true</check>
+        <check group="Show" item="Units">true</check>
+        <radio group="Orientation" item="North">true</radio>
+      </options>
+      <property tag="Range">
+        <variable ref="variable2"/>
+      </property>
+      <property tag="Units Format">
+        <variable ref="variable5"/>
+      </property>
+    </AxialRangeControl>
+  </object>
+  <object id="control5" type="oblivion.lpui.misc.ControlScrollBar">
+    <ControlScrollBar>
+      <name>ScrollBar</name>
+      <annotation>
+        <description/>
+      </annotation>
+      <options>
+        <check group="Options" item="Live Scrolling">true</check>
+        <radio group="Orientation" item="Vertical">true</radio>
+      </options>
+      <property tag="Scroll">
+        <variable ref="variable7"/>
+      </property>
+    </ControlScrollBar>
+  </object>
+  <object id="control6" type="oblivion.view.cell.view.ListView">
+    <ListView>
+      <name>StatesList View</name>
+      <annotation>
+        <description/>
+      </annotation>
+      <options>
+        <check group="Design" item="No Header">true</check>
+        <check group="Selection" item="Force">false</check>
+        <radio group="Layout" item="Vertical">true</radio>
+        <radio group="Selection Mode" item="Multiple">true</radio>
+      </options>
+      <property tag="Info">
+        <variable ref="variable61"/>
+      </property>
+      <property tag="Projection">
+        <variable ref="variable52"/>
+      </property>
+      <property tag="Sort">
+        <variable ref="variable57"/>
+      </property>
+      <property tag="Selection">
+        <variable ref="variable9"/>
+      </property>
+      <position>
+        <x>0</x>
+        <y>0</y>
+      </position>
+    </ListView>
+  </object>
+  <object id="control7" type="oblivion.lpui.misc.ControlButton">
+    <ControlButton>
+      <name>Button</name>
+      <annotation>
+        <description/>
+      </annotation>
+      <options/>
+      <property tag="Text">
+        <variable ref="variable8"/>
+      </property>
+    </ControlButton>
+  </object>
+  <object id="control8" type="oblivion.view.cell.view.ListView">
+    <ListView>
+      <name>List View</name>
+      <annotation>
+        <description/>
+      </annotation>
+      <options>
+        <check group="Design" item="No Header">false</check>
+        <check group="Selection" item="Force">false</check>
+        <radio group="Layout" item="Vertical">true</radio>
+        <radio group="Selection Mode" item="Multiple">true</radio>
+      </options>
+      <property tag="Info">
+        <variable ref="variable66"/>
+      </property>
+      <property tag="Selection">
+        <variable ref="variable13"/>
+      </property>
+      <position>
+        <x>0</x>
+        <y>0</y>
+      </position>
+    </ListView>
+  </object>
+  <object id="control9" type="oblivion.view.cell.view.ListView">
+    <ListView>
+      <name>CountyList View</name>
+      <annotation>
+        <description/>
+      </annotation>
+      <options>
+        <check group="Design" item="No Header">false</check>
+        <check group="Selection" item="Force">false</check>
+        <radio group="Layout" item="Vertical">true</radio>
+        <radio group="Selection Mode" item="Multiple">true</radio>
+      </options>
+      <property tag="Info">
+        <variable ref="variable62"/>
+      </property>
+      <property tag="Projection">
+        <variable ref="variable55"/>
+      </property>
+      <property tag="Filter">
+        <variable ref="variable47"/>
+      </property>
+      <property tag="Sort">
+        <variable ref="variable58"/>
+      </property>
+      <property tag="Selection">
+        <variable ref="variable17"/>
+      </property>
+      <position>
+        <x>0</x>
+        <y>0</y>
+      </position>
+    </ListView>
+  </object>
+  <object id="control10" type="oblivion.view.cell.view.ListView">
+    <ListView>
+      <name>List View0</name>
+      <annotation>
+        <description/>
+      </annotation>
+      <options>
+        <check group="Design" item="No Header">false</check>
+        <check group="Selection" item="Force">false</check>
+        <radio group="Layout" item="Vertical">true</radio>
+        <radio group="Selection Mode" item="Multiple">true</radio>
+      </options>
+      <property tag="Info">
+        <variable ref="variable68"/>
+      </property>
+      <position>
+        <x>0</x>
+        <y>0</y>
+      </position>
+    </ListView>
+  </object>
+  <object id="control11" type="oblivion.view.range.view.AxialRangeControl">
+    <AxialRangeControl>
+      <name>MonthAxis</name>
+      <annotation>
+        <description/>
+      </annotation>
+      <options>
+        <check group="Look" item="Symmetric">false</check>
+        <check group="Show" item="Label">true</check>
+        <check group="Show" item="Ticks">true</check>
+        <check group="Show" item="Units">true</check>
+        <radio group="Orientation" item="North">true</radio>
+      </options>
+      <property tag="Range">
+        <variable ref="variable18"/>
+      </property>
+      <property tag="Units Format">
+        <variable ref="variable5"/>
+      </property>
+    </AxialRangeControl>
+  </object>
+  <object id="control12" type="oblivion.view.range.view.AxialRangeControl">
+    <AxialRangeControl>
+      <name>Axis</name>
+      <annotation>
+        <description/>
+      </annotation>
+      <options>
+        <check group="Look" item="Symmetric">false</check>
+        <check group="Show" item="Label">true</check>
+        <check group="Show" item="Ticks">true</check>
+        <check group="Show" item="Units">true</check>
+        <radio group="Orientation" item="North">true</radio>
+      </options>
+      <property tag="Range">
+        <variable ref="variable20"/>
+      </property>
+      <property tag="Units Format">
+        <variable ref="variable5"/>
+      </property>
+    </AxialRangeControl>
+  </object>
+  <object id="panel0" type="improvise.session.SessionPanel">
+    <SessionPanel>
+      <name ref="value16"/>
+      <annotation>
+        <description/>
+      </annotation>
+      <boundary>
+        <type>oblivion.awt.boundary.EmptyBoundary</type>
+        <boundary/>
+      </boundary>
+      <color ref="value8"/>
+      <fill>false</fill>
+      <layout>
+        <type>oblivion.awt.layout.EdgeLayout</type>
+      </layout>
+      <child>
+        <component ref="control2"/>
+        <constraints>
+          <edge>center</edge>
+        </constraints>
+      </child>
+    </SessionPanel>
+  </object>
+  <object id="panel1" type="improvise.session.SessionPanel">
+    <SessionPanel>
+      <name ref="value16"/>
+      <annotation>
+        <description/>
+      </annotation>
+      <boundary>
+        <type>oblivion.awt.boundary.EmptyBoundary</type>
+        <boundary/>
+      </boundary>
+      <color ref="value8"/>
+      <fill>false</fill>
+      <layout>
+        <type>oblivion.awt.layout.EdgeLayout</type>
+      </layout>
+      <child>
+        <component ref="control3"/>
+        <constraints>
+          <edge>center</edge>
+        </constraints>
+      </child>
+    </SessionPanel>
+  </object>
+  <object id="panel2" type="improvise.session.SessionPanel">
+    <SessionPanel>
+      <name ref="value16"/>
+      <boundary>
+        <type>oblivion.awt.boundary.EmptyBoundary</type>
+        <boundary/>
+      </boundary>
+      <color ref="value8"/>
+      <fill>false</fill>
+      <layout>
+        <type>oblivion.awt.layout.EdgeLayout</type>
+      </layout>
+      <child>
+        <component ref="control4"/>
+        <constraints>
+          <edge>center</edge>
+        </constraints>
+      </child>
+    </SessionPanel>
+  </object>
+  <object id="panel3" type="improvise.session.SessionPanel">
+    <SessionPanel>
+      <name ref="value16"/>
+      <annotation>
+        <description/>
+      </annotation>
+      <boundary>
+        <type>oblivion.awt.boundary.EmptyBoundary</type>
+        <boundary>
+          <insets>
+            <t>0</t>
+            <b>4</b>
+            <l>5</l>
+            <r>5</r>
+          </insets>
+        </boundary>
+      </boundary>
+      <color ref="value8"/>
+      <fill>false</fill>
+      <layout>
+        <type>oblivion.awt.layout.EdgeLayout</type>
+      </layout>
+      <child>
+        <component ref="control6"/>
+        <constraints>
+          <edge>center</edge>
+        </constraints>
+      </child>
+      <child>
+        <component ref="control7"/>
+        <constraints>
+          <edge>south</edge>
+        </constraints>
+      </child>
+    </SessionPanel>
+  </object>
+  <object id="panel4" type="improvise.session.SessionPanel">
+    <SessionPanel>
+      <name ref="value16"/>
+      <annotation>
+        <description/>
+      </annotation>
+      <boundary>
+        <type>oblivion.awt.boundary.EmptyBoundary</type>
+        <boundary/>
+      </boundary>
+      <color ref="value8"/>
+      <fill>false</fill>
+      <layout>
+        <type>oblivion.awt.layout.EdgeLayout</type>
+      </layout>
+      <child>
+        <component ref="control8"/>
+        <constraints>
+          <edge>center</edge>
+        </constraints>
+      </child>
+    </SessionPanel>
+  </object>
+  <object id="panel5" type="improvise.session.SessionPanel">
+    <SessionPanel>
+      <name ref="value16"/>
+      <annotation>
+        <description/>
+      </annotation>
+      <boundary>
+        <type>oblivion.awt.boundary.EmptyBoundary</type>
+        <boundary/>
+      </boundary>
+      <color ref="value8"/>
+      <fill>false</fill>
+      <layout>
+        <type>oblivion.awt.layout.EdgeLayout</type>
+      </layout>
+      <child>
+        <component ref="control9"/>
+        <constraints>
+          <edge>center</edge>
+        </constraints>
+      </child>
+    </SessionPanel>
+  </object>
+  <object id="panel6" type="improvise.session.SessionPanel">
+    <SessionPanel>
+      <name ref="value16"/>
+      <boundary>
+        <type>oblivion.awt.boundary.EmptyBoundary</type>
+        <boundary/>
+      </boundary>
+      <color ref="value8"/>
+      <fill>false</fill>
+      <layout>
+        <type>oblivion.awt.layout.EdgeLayout</type>
+      </layout>
+      <child>
+        <component ref="control10"/>
+        <constraints>
+          <edge>center</edge>
+        </constraints>
+      </child>
+    </SessionPanel>
+  </object>
+  <object id="panel7" type="improvise.session.SessionPanel">
+    <SessionPanel>
+      <color ref="value8"/>
+      <fill>false</fill>
+      <layout>
+        <type>oblivion.awt.layout.EdgeLayout</type>
+      </layout>
+      <child>
+        <component ref="control11"/>
+        <constraints>
+          <edge>center</edge>
+        </constraints>
+      </child>
+    </SessionPanel>
+  </object>
+  <object id="panel8" type="improvise.session.SessionPanel">
+    <SessionPanel>
+      <color ref="value8"/>
+      <fill>false</fill>
+      <layout>
+        <type>oblivion.awt.layout.EdgeLayout</type>
+      </layout>
+      <child>
+        <component ref="control12"/>
+        <constraints>
+          <edge>center</edge>
+        </constraints>
+      </child>
+    </SessionPanel>
+  </object>
+  <object id="frame0" type="improvise.session.SessionFrame">
+    <SessionFrame>
+      <name>Table View</name>
+      <annotation>
+        <description/>
+      </annotation>
+      <title>Table View</title>
+      <bounds>
+        <x>768</x>
+        <y>596</y>
+        <w>936</w>
+        <h>264</h>
+      </bounds>
+      <color ref="value8"/>
+      <level>0</level>
+      <visible>true</visible>
+      <clear>false</clear>
+      <hidetitle>false</hidetitle>
+      <hideboundary>false</hideboundary>
+      <iconifiable>true</iconifiable>
+      <maximizable>true</maximizable>
+      <closable>true</closable>
+      <child>
+        <component ref="panel0"/>
+      </child>
+    </SessionFrame>
+  </object>
+  <object id="frame1" type="improvise.session.SessionFrame">
+    <SessionFrame>
+      <name>Map</name>
+      <annotation>
+        <description/>
+      </annotation>
+      <title>Map</title>
+      <bounds>
+        <x>732</x>
+        <y>0</y>
+        <w>976</w>
+        <h>588</h>
+      </bounds>
+      <color ref="value8"/>
+      <level>0</level>
+      <visible>true</visible>
+      <clear>false</clear>
+      <hidetitle>false</hidetitle>
+      <hideboundary>false</hideboundary>
+      <iconifiable>true</iconifiable>
+      <maximizable>true</maximizable>
+      <closable>true</closable>
+      <child>
+        <component ref="panel1"/>
+      </child>
+    </SessionFrame>
+  </object>
+  <object id="frame2" type="improvise.session.SessionFrame">
+    <SessionFrame>
+      <name>YearAxis</name>
+      <annotation>
+        <description/>
+      </annotation>
+      <title>Axis</title>
+      <bounds>
+        <x>208</x>
+        <y>0</y>
+        <w>400</w>
+        <h>76</h>
+      </bounds>
+      <color ref="value8"/>
+      <level>0</level>
+      <visible>true</visible>
+      <clear>false</clear>
+      <hidetitle>false</hidetitle>
+      <hideboundary>false</hideboundary>
+      <iconifiable>true</iconifiable>
+      <maximizable>true</maximizable>
+      <closable>true</closable>
+      <child>
+        <component ref="panel2"/>
+      </child>
+    </SessionFrame>
+  </object>
+  <object id="frame3" type="improvise.session.SessionFrame">
+    <SessionFrame>
+      <name>List View</name>
+      <annotation>
+        <description/>
+      </annotation>
+      <title>List View</title>
+      <bounds>
+        <x>0</x>
+        <y>80</y>
+        <w>152</w>
+        <h>216</h>
+      </bounds>
+      <color ref="value8"/>
+      <level>0</level>
+      <visible>true</visible>
+      <clear>false</clear>
+      <hidetitle>false</hidetitle>
+      <hideboundary>false</hideboundary>
+      <iconifiable>true</iconifiable>
+      <maximizable>true</maximizable>
+      <closable>true</closable>
+      <child>
+        <component ref="panel3"/>
+      </child>
+    </SessionFrame>
+  </object>
+  <object id="frame4" type="improvise.session.SessionFrame">
+    <SessionFrame>
+      <name>CountyZoneSelector</name>
+      <annotation>
+        <description/>
+      </annotation>
+      <title>List View</title>
+      <bounds>
+        <x>0</x>
+        <y>0</y>
+        <w>152</w>
+        <h>80</h>
+      </bounds>
+      <color ref="value8"/>
+      <level>0</level>
+      <visible>true</visible>
+      <clear>false</clear>
+      <hidetitle>false</hidetitle>
+      <hideboundary>false</hideboundary>
+      <iconifiable>true</iconifiable>
+      <maximizable>true</maximizable>
+      <closable>true</closable>
+      <child>
+        <component ref="panel4"/>
+      </child>
+    </SessionFrame>
+  </object>
+  <object id="frame5" type="improvise.session.SessionFrame">
+    <SessionFrame>
+      <name>CountyOrZoneList</name>
+      <annotation>
+        <description/>
+      </annotation>
+      <title>List View</title>
+      <bounds>
+        <x>0</x>
+        <y>292</y>
+        <w>152</w>
+        <h>202</h>
+      </bounds>
+      <color ref="value8"/>
+      <level>0</level>
+      <visible>true</visible>
+      <clear>false</clear>
+      <hidetitle>false</hidetitle>
+      <hideboundary>false</hideboundary>
+      <iconifiable>true</iconifiable>
+      <maximizable>true</maximizable>
+      <closable>true</closable>
+      <child>
+        <component ref="panel5"/>
+      </child>
+    </SessionFrame>
+  </object>
+  <object id="frame6" type="improvise.session.SessionFrame">
+    <SessionFrame>
+      <name>EventTypeListView</name>
+      <annotation>
+        <description/>
+      </annotation>
+      <title>List View</title>
+      <bounds>
+        <x>0</x>
+        <y>496</y>
+        <w>152</w>
+        <h>202</h>
+      </bounds>
+      <color ref="value8"/>
+      <level>0</level>
+      <visible>true</visible>
+      <clear>false</clear>
+      <hidetitle>false</hidetitle>
+      <hideboundary>false</hideboundary>
+      <iconifiable>true</iconifiable>
+      <maximizable>true</maximizable>
+      <closable>true</closable>
+      <child>
+        <component ref="panel6"/>
+      </child>
+    </SessionFrame>
+  </object>
+  <object id="frame7" type="improvise.session.SessionFrame">
+    <SessionFrame>
+      <name>MonthAxis</name>
+      <annotation>
+        <description/>
+      </annotation>
+      <title>Axis</title>
+      <bounds>
+        <x>208</x>
+        <y>76</y>
+        <w>400</w>
+        <h>75</h>
+      </bounds>
+      <color ref="value8"/>
+      <level>0</level>
+      <visible>true</visible>
+      <clear>false</clear>
+      <hidetitle>false</hidetitle>
+      <hideboundary>false</hideboundary>
+      <iconifiable>true</iconifiable>
+      <maximizable>true</maximizable>
+      <closable>true</closable>
+      <child>
+        <component ref="panel7"/>
+      </child>
+    </SessionFrame>
+  </object>
+  <object id="frame8" type="improvise.session.SessionFrame">
+    <SessionFrame>
+      <name>DayAxis</name>
+      <annotation>
+        <description/>
+      </annotation>
+      <title>Axis</title>
+      <bounds>
+        <x>208</x>
+        <y>148</y>
+        <w>400</w>
+        <h>75</h>
+      </bounds>
+      <color ref="value8"/>
+      <level>0</level>
+      <visible>true</visible>
+      <clear>false</clear>
+      <hidetitle>false</hidetitle>
+      <hideboundary>false</hideboundary>
+      <iconifiable>true</iconifiable>
+      <maximizable>true</maximizable>
+      <closable>true</closable>
+      <child>
+        <component ref="panel8"/>
+      </child>
+    </SessionFrame>
+  </object>
+  <object id="layer0" type="improvise.session.SessionLayer">
+    <SessionLayer>
+      <name>Untitled</name>
+      <annotation>
+        <description/>
+      </annotation>
+      <color>#ffffff</color>
+      <child>
+        <component ref="frame8"/>
+      </child>
+      <child>
+        <component ref="frame2"/>
+      </child>
+      <child>
+        <component ref="frame7"/>
+      </child>
+      <child>
+        <component ref="frame1"/>
+      </child>
+      <child>
+        <component ref="frame3"/>
+      </child>
+      <child>
+        <component ref="frame5"/>
+      </child>
+      <child>
+        <component ref="frame4"/>
+      </child>
+      <child>
+        <component ref="frame6"/>
+      </child>
+      <child>
+        <component ref="frame0"/>
+      </child>
+    </SessionLayer>
+  </object>
+  <object id="nested0" type="oblivion.view.range.view.GlassRangeLens">
+    <GlassRangeLens>
+      <parent ref="control4"/>
+      <name>YearGlassRangeLens</name>
+      <options>
+        <check group="Frame" item="Fill">false</check>
+        <check group="Frame" item="Show">true</check>
+        <check group="Lines" item="Markers">false</check>
+        <check group="Lines" item="Outline">false</check>
+      </options>
+      <property tag="Context Range">
+        <variable ref="variable2"/>
+      </property>
+      <property tag="Range">
+        <variable ref="variable3"/>
+      </property>
+    </GlassRangeLens>
+  </object>
+  <object id="nested1" type="oblivion.view.range.view.GlassRangeLens">
+    <GlassRangeLens>
+      <parent ref="control11"/>
+      <name>MonthGlassRangeLens</name>
+      <options>
+        <check group="Frame" item="Fill">false</check>
+        <check group="Frame" item="Show">true</check>
+        <check group="Lines" item="Markers">false</check>
+        <check group="Lines" item="Outline">false</check>
+      </options>
+      <property tag="Context Range">
+        <variable ref="variable18"/>
+      </property>
+      <property tag="Range">
+        <variable ref="variable19"/>
+      </property>
+    </GlassRangeLens>
+  </object>
+  <object id="nested2" type="oblivion.view.range.view.GlassRangeLens">
+    <GlassRangeLens>
+      <parent ref="control12"/>
+      <name>DayGlassRangeLens</name>
+      <options>
+        <check group="Frame" item="Fill">false</check>
+        <check group="Frame" item="Show">true</check>
+        <check group="Lines" item="Markers">false</check>
+        <check group="Lines" item="Outline">false</check>
+      </options>
+      <property tag="Context Range">
+        <variable ref="variable20"/>
+      </property>
+      <property tag="Range">
+        <variable ref="variable21"/>
+      </property>
+    </GlassRangeLens>
+  </object>
+</improvise>

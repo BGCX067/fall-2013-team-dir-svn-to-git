@@ -1,0 +1,7 @@
+oblivion.geo.shape.GeoShape GeoShape
+int Id
+java.lang.String STATE
+java.lang.String FIPS
+double LON
+double LAT
+java.lang.String NAME

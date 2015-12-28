@@ -1,0 +1,9 @@
+double,AREA
+double,PERIMETER
+int,CO2000P020
+java.lang.String,STATE
+java.lang.String,COUNTY
+java.lang.String,FIPS
+java.lang.String,STATE_FIPS
+double,SQUARE_MIL
+oblivion.geo.shape.GeoShape,SHAPE

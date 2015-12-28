@@ -1,0 +1,1 @@
+State, Zone, Zone Name, State Zone Code, County Name, FIPS Code, Lat of Centroid, Long of Centroid
